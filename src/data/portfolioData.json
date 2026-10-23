@@ -1,0 +1,2191 @@
+{
+  "site": {
+    "title": "Sushant Buche | Software Engineer",
+    "shortTitle": "Sushant Buche",
+    "domain": "",
+    "defaultDescription": "Sushant Buche is a Software Developer Level 2 with 2.8+ years of experience building full-stack .NET applications, APIs, integrations, and production systems across healthcare and insurance technology.",
+    "defaultOgImage": "/og-image.png",
+    "locale": "en_IN",
+    "themeColor": "#0B0F17",
+    "keywords": [
+      "Sushant Buche",
+      "Software Developer Level 2",
+      "Full Stack .NET Developer",
+      "Software Engineer",
+      "C#",
+      "ASP.NET Core",
+      "Backend Engineer",
+      "Microservices",
+      "SQL Server",
+      "Azure",
+      "AWS",
+      "Healthcare Technology",
+      "Insurance Technology",
+      "AI Automation",
+      "Python",
+      "Apache Kafka",
+      "FAISS"
+    ],
+    "heroTechnologies": [
+      ".NET",
+      "C#",
+      "ASP.NET Core",
+      "SQL Server",
+      "Redis",
+      "Azure",
+      "AWS",
+      "Python"
+    ],
+    "showLastUpdated": true,
+    "contentUpdatedAt": "2026-10-23"
+  },
+  "personal": {
+    "name": "Sushant Buche",
+    "title": "Software Developer",
+    "altTitle": "Full Stack .NET Developer · Backend · Microservices · Cloud",
+    "tagline": "Building reliable software, scalable APIs, and better digital experiences.",
+    "shortBio": "I build and maintain full-stack .NET applications, backend services, and integrations. My work spans healthcare and insurance platforms, production data paths, cloud deployments, and reliable API-driven workflows.",
+    "bio": "I'm a Software Developer Level 2 with 2.8+ years of experience building and maintaining full-stack .NET applications, backend services, and integrations. I've worked across healthcare and insurance technology, from patient and caregiver workflows to EDI claims, IVR, and third-party APIs. My focus is on clear service boundaries, SQL performance, dependable production behaviour, and cloud-enabled delivery.",
+    "email": "107sushant@gmail.com",
+    "phone": "8698999259",
+    "location": "Chandrapur, Maharashtra, India",
+    "timezone": "IST (UTC+5:30)",
+    "initials": "SB",
+    "profileImage": "/profile/sushant-buche.webp",
+    "resumeUrl": "",
+    "availability": {
+      "show": true,
+      "label": "Open to opportunities",
+      "detail": "Available for full-time roles, freelance work, and technical collaboration. 15-day notice period."
+    },
+    "socials": {
+      "github": "https://github.com/SushantBuche-107",
+      "linkedin": "https://www.linkedin.com/in/sushant-buche",
+      "naukri": "",
+      "leetcode": "",
+      "twitter": "",
+      "website": "",
+      "email": "107sushant@gmail.com"
+    }
+  },
+  "metrics": [
+    {
+      "id": "experience-years",
+      "label": "Years of experience",
+      "value": "2.8+",
+      "detail": "Hands-on experience, as of 2026"
+    },
+    {
+      "id": "primary-stack",
+      "label": "Primary engineering stack",
+      "value": ".NET / C#"
+    },
+    {
+      "id": "domain-focus",
+      "label": "Domain focus",
+      "value": "Healthcare & Insurance"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "open-to-work",
+      "label": "Open to work",
+      "show": true,
+      "tone": "success"
+    },
+    {
+      "id": "available-for-interviews",
+      "label": "Available for interviews",
+      "show": true,
+      "tone": "accent"
+    },
+    {
+      "id": "open-to-relocation",
+      "label": "Open to relocation",
+      "show": false,
+      "tone": "neutral"
+    },
+    {
+      "id": "notice-period",
+      "label": "15-day notice period",
+      "show": true,
+      "tone": "warning"
+    }
+  ],
+  "skills": [
+    {
+      "id": "backend",
+      "name": "Backend Engineering",
+      "description": "Application services, API design, messaging, and the server-side foundations behind enterprise workflows.",
+      "items": [
+        {
+          "name": "C#",
+          "description": "Primary language for application and service development.",
+          "focus": "core"
+        },
+        {
+          "name": ".NET",
+          "description": "Application runtime and framework for production systems.",
+          "focus": "core"
+        },
+        {
+          "name": "ASP.NET Core",
+          "description": "Web APIs and backend services.",
+          "focus": "core"
+        },
+        {
+          "name": "REST APIs",
+          "description": "Resource design, integration contracts, and versioning.",
+          "focus": "core"
+        },
+        {
+          "name": "Entity Framework",
+          "description": "Data access, modelling, and query composition.",
+          "focus": "core"
+        },
+        {
+          "name": "LINQ",
+          "description": "Expressive querying over collections and data sources."
+        },
+        {
+          "name": "SignalR",
+          "description": "Real-time communication for application features."
+        },
+        {
+          "name": "RabbitMQ",
+          "description": "Asynchronous messaging and background workflow patterns.",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Redis",
+          "description": "Caching and low-latency data access.",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Elasticsearch",
+          "description": "Search and indexed data retrieval."
+        },
+        {
+          "name": "Microservices",
+          "description": "Service boundaries, contracts, and distributed application design.",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Python",
+          "description": "Service scripts, AI prototypes, and automation.",
+          "focus": "working",
+          "relatedProjects": [
+            "agentflow",
+            "ai-knowledge-base-code-assistant"
+          ]
+        },
+        {
+          "name": "FastAPI",
+          "description": "Lightweight Python APIs and orchestration services.",
+          "focus": "working",
+          "relatedProjects": [
+            "agentflow"
+          ]
+        },
+        {
+          "name": "Apache Kafka",
+          "description": "Publishing workflow and event data for downstream consumers.",
+          "focus": "working",
+          "relatedProjects": [
+            "agentflow",
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Dapper",
+          "description": "Explicit SQL for read-heavy data paths.",
+          "focus": "working",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "description": "Responsive interfaces that make complex workflows easier to understand and operate.",
+      "items": [
+        {
+          "name": "Angular",
+          "description": "Structured frontend applications for enterprise use cases.",
+          "relatedProjects": [
+            "modular-ecommerce-platform",
+            "ecommerce-application"
+          ]
+        },
+        {
+          "name": "TypeScript",
+          "description": "Typed application code and maintainable frontend architecture.",
+          "relatedProjects": [
+            "portfolio-platform",
+            "ai-knowledge-base-code-assistant"
+          ]
+        },
+        {
+          "name": "JavaScript",
+          "description": "Browser behaviour and application integration."
+        },
+        {
+          "name": "React",
+          "description": "Component-driven interfaces and interactive product experiences.",
+          "relatedProjects": [
+            "portfolio-platform",
+            "ai-knowledge-base-code-assistant"
+          ]
+        },
+        {
+          "name": "HTML",
+          "description": "Semantic structure and accessible content."
+        },
+        {
+          "name": "CSS",
+          "description": "Layout, responsive behaviour, and visual systems."
+        },
+        {
+          "name": "Bootstrap",
+          "description": "Responsive UI foundations for business applications."
+        },
+        {
+          "name": "Tailwind CSS",
+          "description": "Token-driven styling and consistent interface composition.",
+          "relatedProjects": [
+            "portfolio-platform"
+          ]
+        },
+        {
+          "name": "Three.js",
+          "description": "Real-time 3D rendering for the interactive hero.",
+          "focus": "working",
+          "relatedProjects": [
+            "portfolio-platform"
+          ]
+        },
+        {
+          "name": "React Three Fiber",
+          "description": "Declarative Three.js scenes inside React.",
+          "focus": "working",
+          "relatedProjects": [
+            "portfolio-platform"
+          ]
+        },
+        {
+          "name": "Angular Material",
+          "description": "Accessible UI building blocks for Angular applications.",
+          "focus": "working",
+          "relatedProjects": [
+            "ecommerce-application"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "description": "Relational and document databases, with an emphasis on clear data models and query performance.",
+      "items": [
+        {
+          "name": "Microsoft SQL Server",
+          "description": "Schema design, stored queries, and query performance tuning.",
+          "focus": "core",
+          "relatedProjects": [
+            "ecommerce-application",
+            "dynamic-question-generator"
+          ]
+        },
+        {
+          "name": "MongoDB",
+          "description": "Document data modelling and retrieval."
+        },
+        {
+          "name": "MySQL",
+          "description": "Relational data storage and application integration.",
+          "relatedProjects": [
+            "blockchain-logistics-privacy"
+          ]
+        },
+        {
+          "name": "Oracle",
+          "description": "Enterprise relational database fundamentals."
+        },
+        {
+          "name": "PostgreSQL",
+          "description": "Relational storage with EF Core and schema-based separation.",
+          "focus": "working",
+          "relatedProjects": [
+            "fleet-manager",
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "FAISS",
+          "description": "Vector similarity search for semantic retrieval.",
+          "focus": "working",
+          "relatedProjects": [
+            "ai-knowledge-base-code-assistant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud & DevOps",
+      "description": "Deployment foundations and infrastructure awareness for applications that need to run reliably.",
+      "items": [
+        {
+          "name": "AWS EC2",
+          "description": "Compute provisioning and application hosting."
+        },
+        {
+          "name": "Microsoft Azure",
+          "description": "App Service, Functions, SQL, Blob Storage, and DevOps workflows."
+        },
+        {
+          "name": "Docker",
+          "description": "Containerised application packaging."
+        },
+        {
+          "name": "Kubernetes",
+          "description": "Container orchestration fundamentals."
+        },
+        {
+          "name": "IIS",
+          "description": "Windows application hosting and configuration."
+        },
+        {
+          "name": "CI/CD",
+          "description": "Build, test, and deployment pipeline fundamentals."
+        },
+        {
+          "name": "Azure App Service",
+          "description": "Hosting and configuration for web applications."
+        },
+        {
+          "name": "Azure Functions",
+          "description": "Event-driven and scheduled compute tasks."
+        },
+        {
+          "name": "Azure SQL",
+          "description": "Managed relational data for cloud-hosted services."
+        },
+        {
+          "name": "HashiCorp Vault",
+          "description": "Centralized secrets management for applications."
+        },
+        {
+          "name": "Azure DevOps",
+          "description": "Build and deployment workflow coordination."
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture",
+      "description": "Designing application boundaries and data flow so systems stay understandable as they evolve.",
+      "items": [
+        {
+          "name": "Microservices",
+          "description": "Service decomposition, contracts, and failure boundaries.",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Monolithic architecture",
+          "description": "Pragmatic modular applications when a single deployable is the right fit."
+        },
+        {
+          "name": "System design",
+          "description": "Trade-offs across data, scalability, reliability, and delivery."
+        },
+        {
+          "name": "API design",
+          "description": "Predictable contracts, validation, errors, and versioning."
+        },
+        {
+          "name": "Event-driven architecture",
+          "description": "Asynchronous workflows and message-based integration.",
+          "relatedProjects": [
+            "agentflow",
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Caching strategies",
+          "description": "Improving response time without compromising correctness."
+        },
+        {
+          "name": "Clean Architecture",
+          "description": "Dependency direction and boundaries that keep domain rules isolated.",
+          "relatedProjects": [
+            "fleet-manager"
+          ]
+        },
+        {
+          "name": "CQRS",
+          "description": "Separating read and write responsibilities where the workflow benefits.",
+          "relatedProjects": [
+            "fleet-manager"
+          ]
+        },
+        {
+          "name": "YARP API gateway",
+          "description": "A single entry point in front of independently deployable services.",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Feature flags",
+          "description": "Runtime control over routes, modules, and user-facing capabilities.",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "description": "Authentication, authorization, and defensive API practices for business-critical applications.",
+      "items": [
+        {
+          "name": "OAuth",
+          "description": "Delegated authorization and token-based access."
+        },
+        {
+          "name": "JWT",
+          "description": "Stateless authentication tokens and validation."
+        },
+        {
+          "name": "Authentication & authorization",
+          "description": "Identity, roles, permissions, and access boundaries."
+        },
+        {
+          "name": "Secure API design",
+          "description": "Validation, least privilege, and safe error handling.",
+          "relatedProjects": [
+            "modular-ecommerce-platform"
+          ]
+        },
+        {
+          "name": "Input validation",
+          "description": "Treating external data as untrusted and validating at the boundary."
+        },
+        {
+          "name": "Secrets management",
+          "description": "Keeping credentials out of source and scoping access through Vault and environment configuration."
+        }
+      ]
+    },
+    {
+      "id": "ai-automation",
+      "name": "AI & Automation",
+      "description": "Applied AI projects and practical automation, with an emphasis on explicit boundaries and honest limitations.",
+      "items": [
+        {
+          "name": "YAML-defined agent workflows",
+          "description": "Declarative orchestration of pluggable AI agents.",
+          "focus": "working",
+          "relatedProjects": [
+            "agentflow"
+          ]
+        },
+        {
+          "name": "Agent orchestration",
+          "description": "Scheduling nodes, sharing context, and handling failures.",
+          "focus": "working",
+          "relatedProjects": [
+            "agentflow"
+          ]
+        },
+        {
+          "name": "SentenceTransformers",
+          "description": "Local embeddings for semantic search and retrieval.",
+          "focus": "working",
+          "relatedProjects": [
+            "ai-knowledge-base-code-assistant"
+          ]
+        },
+        {
+          "name": "FAISS",
+          "description": "Vector search over an indexed knowledge base.",
+          "focus": "working",
+          "relatedProjects": [
+            "ai-knowledge-base-code-assistant"
+          ]
+        },
+        {
+          "name": "OpenRouter / LLM APIs",
+          "description": "Grounded chat responses using retrieved source context.",
+          "focus": "working",
+          "relatedProjects": [
+            "ai-knowledge-base-code-assistant"
+          ]
+        },
+        {
+          "name": "Retrieval-augmented applications",
+          "description": "Combining source material with model output instead of relying on memory alone.",
+          "focus": "exploring",
+          "relatedProjects": [
+            "ai-knowledge-base-code-assistant"
+          ]
+        },
+        {
+          "name": "Computer vision fundamentals",
+          "description": "OpenCV face detection and a Keras classification workflow.",
+          "focus": "exploring",
+          "relatedProjects": [
+            "face-mask-detection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "domain-engineering",
+      "name": "Domain Engineering",
+      "description": "The business and production context that shapes how the software behaves day to day.",
+      "items": [
+        {
+          "name": "Healthcare & home care",
+          "description": "Application workflows and data associated with care-related operations."
+        },
+        {
+          "name": "Insurance & policy systems",
+          "description": "Business processes and data tied to policy-related systems."
+        },
+        {
+          "name": "Enterprise API integrations",
+          "description": "Connecting internal systems and external services through stable interfaces."
+        },
+        {
+          "name": "Data retrieval & validation",
+          "description": "Transforming and checking data before it enters the workflow."
+        },
+        {
+          "name": "Background jobs & automation",
+          "description": "Scheduled and asynchronous processing that keeps operations moving."
+        },
+        {
+          "name": "Business rule implementation",
+          "description": "Encoding operational rules with clear, testable behaviour."
+        },
+        {
+          "name": "Production troubleshooting",
+          "description": "Diagnosing real system behaviour with logs, data, and evidence."
+        },
+        {
+          "name": "EDI claims & SFTP",
+          "description": "Claims data exchange workflows over secure file transfer.",
+          "relatedProjects": []
+        },
+        {
+          "name": "IVR & third-party APIs",
+          "description": "Integrating external communication and data services into application workflows.",
+          "relatedProjects": []
+        }
+      ]
+    },
+    {
+      "id": "testing-quality",
+      "name": "Testing & Quality",
+      "description": "Practices used to keep changes safe and interfaces dependable.",
+      "items": [
+        {
+          "name": "Vitest",
+          "description": "Unit and integration tests for application logic and UI.",
+          "relatedProjects": [
+            "portfolio-platform"
+          ]
+        },
+        {
+          "name": "React Testing Library",
+          "description": "User-focused component testing.",
+          "relatedProjects": [
+            "portfolio-platform"
+          ]
+        },
+        {
+          "name": "ESLint",
+          "description": "Consistent static analysis across the codebase.",
+          "relatedProjects": [
+            "portfolio-platform"
+          ]
+        },
+        {
+          "name": "TypeScript strict mode",
+          "description": "Compile-time checks for content and interface contracts.",
+          "relatedProjects": [
+            "portfolio-platform"
+          ]
+        },
+        {
+          "name": "Manual release verification",
+          "description": "Build checks, route checks, responsive review, and production-path validation.",
+          "relatedProjects": []
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "agentflow",
+      "title": "AgentFlow — YAML-Driven AI Orchestration",
+      "summary": "A FastAPI orchestrator that compiles YAML workflows, runs pluggable Python agents, shares execution context, retries failures, and publishes node results to Kafka.",
+      "description": "AgentFlow is a reference framework for describing AI agent pipelines as YAML data. The orchestrator compiles a workflow, resolves each node implementation, executes nodes in order with retry handling, and carries a shared context between steps. It is intentionally a scaffold: the control plane and contracts are implemented, while agents and several execution features remain placeholders for further work.",
+      "role": "Design and development",
+      "timeline": "2026",
+      "categories": [
+        "AI & Automation",
+        "Backend",
+        "Developer Tools"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "YAML",
+        "Apache Kafka",
+        "Docker Compose",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "featured": true,
+      "status": "published",
+      "coverImage": "/projects/agentflow-cover.png",
+      "coverAlt": "AgentFlow case study cover showing YAML workflow, compiler, scheduler, and Kafka stages.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/agentflow",
+        "caseStudy": true
+      },
+      "problem": "Most AI demos hard-code a chain of model calls. That makes the pipeline difficult to review, version, or reuse when the sequence changes. The experiment was to make the flow declarative while keeping domain logic inside agents.",
+      "goals": [
+        "Describe an agent pipeline as a reviewable YAML document.",
+        "Resolve node implementations through a uniform Python contract.",
+        "Carry input and intermediate results through a shared execution context.",
+        "Publish each node result to Kafka for observation or replay.",
+        "Keep the orchestration layer independent of any specific domain."
+      ],
+      "constraints": [
+        "The repository is a reference scaffold, not a production-ready agent platform.",
+        "Execution is sequential; DAG branching, parallel nodes, and conditional edges are planned.",
+        "The bundled invoice and RAG agents are lightweight stubs.",
+        "Strict request models, persistence, authentication, sandboxing, tests, and CI are not implemented yet."
+      ],
+      "contribution": [
+        "Defined the YAML workflow shape, node metadata, and agent contract.",
+        "Built the FastAPI entry point and workflow compiler.",
+        "Implemented sequential scheduling with configurable retries and structured errors.",
+        "Added shared context propagation and Kafka publishing for node results.",
+        "Documented the architecture, local infrastructure, API contract, and known limitations."
+      ],
+      "architecture": "A FastAPI service exposes the flow-run endpoint. The compiler reads a YAML file and resolves node implementations from dotted Python paths. The scheduler executes nodes in order, stores input under the input key and each result under its node id, retries failures, and publishes every node result to the agentflow Kafka topic. Docker Compose provides PostgreSQL, Redis, ZooKeeper, and Kafka for local development.",
+      "architectureImage": "/projects/agentflow-architecture.svg",
+      "architectureImageAlt": "AgentFlow architecture diagram showing the FastAPI orchestrator, YAML compiler, retrying scheduler, shared context, agents, and Kafka.",
+      "dataFlow": [
+        "A client posts a workflow path and input payload to the run endpoint.",
+        "The compiler loads the YAML, validates the basic shape, and resolves node implementations.",
+        "The scheduler executes nodes sequentially and writes each result into shared context.",
+        "Node results are published to Kafka on the agentflow topic.",
+        "The final context is returned in the workflow response."
+      ],
+      "apiDesign": [
+        "POST /api/v1/flows/run accepts workflow_yaml and an input object.",
+        "The response returns a workflow status plus the accumulated context.",
+        "Swagger and OpenAPI are available through FastAPI.",
+        "Strict Pydantic request models and YAML schema validation are explicitly on the roadmap."
+      ],
+      "databaseDesign": [
+        "PostgreSQL and Redis are provisioned in the local Compose stack but are not yet used for run persistence.",
+        "The roadmap includes workflow-run and node-result storage in PostgreSQL.",
+        "Redis is intended for distributed locks and idempotency keys."
+      ],
+      "decisions": [
+        {
+          "title": "Make the workflow the artifact",
+          "detail": "A YAML document can be reviewed, diffed, and versioned more easily than an imperative chain embedded in application code."
+        },
+        {
+          "title": "Keep orchestrator and agents separate",
+          "detail": "The orchestrator owns control flow. Agents own domain work behind a small run(payload) contract, so implementations can be swapped without changing the scheduler."
+        },
+        {
+          "title": "Use node ids as context keys",
+          "detail": "Writing each result under a stable node id makes intermediate state inspectable and gives downstream agents a predictable lookup model."
+        },
+        {
+          "title": "Publish events even in a scaffold",
+          "detail": "Kafka publishing establishes an observability boundary early. A later consumer can replay results or feed dashboards without changing agent code."
+        }
+      ],
+      "security": [
+        "The project has no authentication, authorization, or sandboxed execution and is not safe for untrusted workflows.",
+        "Dynamic dotted-path resolution would require an allow-list and stronger validation before production use.",
+        "Secrets and connection settings are kept in environment configuration rather than committed source."
+      ],
+      "performance": [
+        "Sequential execution keeps the control flow understandable but limits throughput.",
+        "Kafka publishing decouples downstream observation from the request path.",
+        "Retries are deliberately bounded through configuration rather than an unbounded loop."
+      ],
+      "challenges": [
+        {
+          "title": "Keeping a prototype honest",
+          "detail": "The repository could easily imply a complete agent platform. The README, roadmap, and limitations are treated as part of the deliverable so the implemented surface is clear."
+        },
+        {
+          "title": "Balancing declarative flexibility with validation",
+          "detail": "YAML makes flows easy to change but easy to break. Strong schema validation and safer agent resolution are the next necessary steps."
+        }
+      ],
+      "tradeoffs": [
+        "Declarative workflows are easier to version but need stronger validation than typed code.",
+        "Sequential execution is simpler to debug but cannot exploit independent node parallelism.",
+        "The Kafka event boundary adds operational dependencies in exchange for replay and observation options."
+      ],
+      "testing": [
+        "No automated test suite is present yet; tests and CI are listed as roadmap work.",
+        "The local Compose stack and Swagger interface provide a manual verification path.",
+        "The documented example flow illustrates the intended contract rather than claiming a production workload."
+      ],
+      "results": [
+        "Implemented the FastAPI orchestrator, YAML compiler, retry-aware scheduler, agent contract, shared context, and Kafka publisher.",
+        "Included a sample workflow and local infrastructure for Kafka, PostgreSQL, Redis, and ZooKeeper.",
+        "Documented the agent contract, API surface, roadmap, and known limitations."
+      ],
+      "lessons": [
+        "Declarative systems are only as safe as their validation layer.",
+        "A uniform agent contract makes orchestration understandable, even when the agents are still stubs.",
+        "A roadmap is part of the architecture because it shows which boundaries are real and which are planned."
+      ],
+      "relatedSlugs": [
+        "ai-knowledge-base-code-assistant",
+        "fleet-manager"
+      ],
+      "codeSnippets": [
+        {
+          "title": "A workflow is an ordered set of resolved nodes",
+          "language": "yaml",
+          "caption": "The sample flow is intentionally small: each node names an implementation path and the context key is its id.",
+          "code": "version: '1.0'\nid: demo_workflow\ndescription: Demo workflow: Invoice + RAG agent integration\nentry: invoice_start\nnodes:\n  - id: invoice_start\n    type: InputHandler\n    impl: agents.invoice_agent.worker.InvoiceAgent.run\n    next: invoice_validate\n  - id: rag_search\n    type: InputHandler\n    impl: agents.rag_agent.worker.RAGAgent.run\n    next: workflow_end"
+        }
+      ]
+    },
+    {
+      "slug": "ai-knowledge-base-code-assistant",
+      "title": "AI Knowledge Base & Code Assistant",
+      "summary": "A full-stack app that turns uploaded code and notes into a semantic knowledge base, then uses the closest match as grounded context for an LLM chat assistant.",
+      "description": "The project combines a React and TypeScript interface with a Flask backend. Uploaded files are embedded with SentenceTransformers, indexed in FAISS, and retrieved by cosine similarity. The chat flow sends the best matching file to OpenRouter so the answer is grounded in a known source instead of relying on the model alone.",
+      "role": "Design and development",
+      "timeline": "2026",
+      "categories": [
+        "AI & Automation",
+        "Full Stack",
+        "Developer Tools"
+      ],
+      "technologies": [
+        "React 19",
+        "TypeScript",
+        "Vite",
+        "Flask",
+        "Python",
+        "SentenceTransformers",
+        "FAISS",
+        "OpenRouter"
+      ],
+      "featured": true,
+      "status": "published",
+      "coverImage": "/projects/ai-knowledge-base-code-assistant-cover.png",
+      "coverAlt": "AI knowledge base case study cover showing upload, embeddings, FAISS, and grounded chat.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/ai-knowledge-base-code-assistant",
+        "caseStudy": true
+      },
+      "problem": "Reusable snippets and technical notes accumulate across projects, but finding the right piece later is slow and keyword search misses conceptually similar code. The project needed a retrieval flow that could connect a natural-language question to a relevant uploaded file.",
+      "goals": [
+        "Store uploaded code and notes with useful metadata.",
+        "Embed descriptions locally and retrieve by semantic similarity.",
+        "Keep uploaded files available for download.",
+        "Send the closest source file to the chat model as context.",
+        "Keep provider keys and uploaded content out of source control."
+      ],
+      "constraints": [
+        "The knowledge base uses local JSON metadata and local uploaded files rather than a managed database.",
+        "The chat currently grounds on the single best matching file, not a multi-document context window.",
+        "There is no authentication or multi-tenant access model.",
+        "FAISS and the embedding model run locally, so memory and startup cost scale with the local environment."
+      ],
+      "contribution": [
+        "Built the React views for knowledge upload, search, and code chat.",
+        "Implemented the Flask endpoints for upload, search, vector search, embed, chat, and download.",
+        "Added SentenceTransformers embeddings and a FAISS inner-product index.",
+        "Connected the chat flow to OpenRouter with retrieved source context.",
+        "Added secure, unique filenames and environment-based configuration for provider keys."
+      ],
+      "architecture": "The React client talks to a Flask REST API. On upload, the backend embeds the supplied description, stores the vector in FAISS, and persists metadata for the file. A search request embeds the query and retrieves the nearest entry. Chat uses the closest file's contents as model context, then calls OpenRouter through its OpenAI-compatible API. Uploaded files and metadata remain local to the backend.",
+      "architectureImage": "/projects/ai-knowledge-architecture.svg",
+      "architectureImageAlt": "AI knowledge base architecture diagram showing React, Flask, SentenceTransformers, FAISS, local storage, and OpenRouter.",
+      "dataFlow": [
+        "The user uploads a file with a title and description.",
+        "Flask stores the file under a secure unique name and embeds the description locally.",
+        "The vector is added to the in-memory FAISS index and metadata is written to local JSON storage.",
+        "A query is embedded and compared with indexed vectors.",
+        "The closest match is loaded and sent as context to OpenRouter for the chat response."
+      ],
+      "apiDesign": [
+        "POST /update_kb adds an entry with title, content, and a file.",
+        "POST /search returns semantic matches for a natural-language query.",
+        "POST /vector_search accepts a raw embedding and optional result count.",
+        "POST /chat retrieves context and requests an answer from the configured model.",
+        "GET /download/<filename> returns an uploaded file; GET /dump exposes the in-memory store for debugging."
+      ],
+      "databaseDesign": [
+        "There is no relational database in this version.",
+        "Knowledge metadata is kept in a local JSON file and uploaded files are kept on disk.",
+        "A production version would separate metadata, object storage, and the vector index, with access control around each."
+      ],
+      "decisions": [
+        {
+          "title": "Embed locally, generate remotely",
+          "detail": "SentenceTransformers handles embeddings without sending source text to an embedding provider. Only the retrieved file and question are sent to the chat provider."
+        },
+        {
+          "title": "Use FAISS for the retrieval seam",
+          "detail": "FAISS provides a clear vector-index boundary. It is fast for a local prototype and can later be replaced with a managed vector store without changing the UI."
+        },
+        {
+          "title": "Ground chat on the best source file",
+          "detail": "Passing one retrieved file keeps the prompt small and makes the answer easier to trace. Multi-document retrieval is a deliberate next step, not hidden behind a vague claim."
+        }
+      ],
+      "security": [
+        "Provider keys are read from environment variables and excluded from source control.",
+        "Uploaded filenames are transformed into secure unique names before storage.",
+        "The API has no authentication, so it should not be exposed publicly as-is.",
+        "Uploaded code may contain secrets; a production deployment needs scanning, access control, and retention rules."
+      ],
+      "performance": [
+        "FAISS keeps nearest-neighbour lookup fast for the local prototype.",
+        "Embedding on CPU makes startup and upload predictable, but slower than a dedicated embedding service.",
+        "The single-file context keeps token usage bounded; larger knowledge bases need chunking and reranking."
+      ],
+      "challenges": [
+        {
+          "title": "Making retrieval useful without overstating it",
+          "detail": "Semantic similarity does not guarantee a correct answer. The project keeps the retrieved source visible in the flow and describes the chat as grounded, not infallible."
+        },
+        {
+          "title": "Handling files safely at the boundary",
+          "detail": "Uploads combine metadata, raw files, and vector state. The backend isolates storage names and keeps provider credentials outside the request payload."
+        }
+      ],
+      "tradeoffs": [
+        "Local storage is simple to inspect but does not provide concurrent multi-user isolation.",
+        "One-file context is easy to reason about but may miss relevant material spread across several files.",
+        "In-memory FAISS is fast to start but loses index state when the process restarts unless rebuilt."
+      ],
+      "testing": [
+        "The repository documents manual setup for the Flask and React applications.",
+        "API endpoints can be checked through the documented curl examples and the running frontend.",
+        "No production load, accuracy benchmark, or automated evaluation suite is claimed."
+      ],
+      "results": [
+        "Implemented upload, semantic search, vector search, download, and grounded chat flows.",
+        "Added local embeddings, FAISS retrieval, and OpenRouter integration with environment-based configuration.",
+        "Built separate React views for the knowledge base and AI code chat.",
+        "No search-accuracy or user-adoption metrics are claimed for this personal project."
+      ],
+      "lessons": [
+        "Retrieval quality is a product concern, not just a model concern.",
+        "A visible source boundary makes an AI feature easier to trust and debug.",
+        "Local prototypes need an explicit path to authentication, storage, and chunking before production use."
+      ],
+      "relatedSlugs": [
+        "agentflow",
+        "modular-ecommerce-platform"
+      ]
+    },
+    {
+      "slug": "modular-ecommerce-platform",
+      "title": "Modular eCommerce Platform",
+      "summary": "A .NET 8 monorepo with a YARP gateway, five services, an Angular storefront and admin UI, Redis-backed carts and feature flags, and RabbitMQ order events.",
+      "description": "The platform is organised as independently deployable modules behind a single gateway. Auth, catalog, cart, order, and notification services share building blocks for security, caching, messaging, and observability, while an Angular workspace covers both customer and admin flows. The repository is Docker-first and includes seeded demo users, feature flags, and verified build steps.",
+      "role": "Design and development",
+      "timeline": "2026",
+      "categories": [
+        "Full Stack",
+        "Microservices",
+        "Backend"
+      ],
+      "technologies": [
+        "C#",
+        ".NET 8",
+        "ASP.NET Core",
+        "YARP",
+        "Angular",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "RabbitMQ",
+        "Dapper",
+        "Entity Framework Core",
+        "Docker Compose"
+      ],
+      "featured": true,
+      "status": "published",
+      "coverImage": "/projects/modular-ecommerce-platform-cover.png",
+      "coverAlt": "Modular eCommerce Platform case study cover showing the Angular UI, YARP gateway, services, and order events.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/modular-ecommerce-platform",
+        "caseStudy": true
+      },
+      "problem": "A commerce codebase can look modular while every feature still shares one deployment and one data path. The goal was to build a monorepo where modules expose their own endpoints, runtime flags can disable capabilities, and order placement creates an asynchronous integration boundary.",
+      "goals": [
+        "Keep service modules independently deployable behind a single gateway.",
+        "Use runtime feature flags for cart and authentication capabilities.",
+        "Separate read-heavy and write-heavy data access patterns.",
+        "Publish an order event without coupling checkout to notification delivery.",
+        "Provide a real Angular storefront and admin workspace, not only API endpoints."
+      ],
+      "constraints": [
+        "The demo OTP flow and seeded users are for local development only.",
+        "Notification delivery is simulated by logging rather than a production email provider.",
+        "Payment integration, search indexing, and a CDN media pipeline are explicitly future work.",
+        "The local stack assumes Docker and Docker Compose."
+      ],
+      "contribution": [
+        "Designed the monorepo boundaries and shared building blocks.",
+        "Built the YARP gateway and module registration model.",
+        "Implemented auth, catalog, cart, order, and notification service flows.",
+        "Added Redis caching, persistent carts, and runtime feature flags.",
+        "Built the Angular storefront and admin workspace with route guards and JWT interceptors.",
+        "Verified the .NET build, Angular production build, and EF Core migrations."
+      ],
+      "architecture": "An Angular application calls a YARP gateway, which routes requests to module APIs. Auth uses JWT registration and password or OTP login. Catalog uses EF Core for writes and Dapper for read-heavy queries, with Redis caching. Carts persist in Redis and respect feature flags. Order placement publishes order.created to RabbitMQ; the notification service consumes it and logs a simulated confirmation flow. PostgreSQL keeps auth, catalog, and ordering data in separate schemas.",
+      "architectureImage": "/projects/modular-ecommerce-architecture.svg",
+      "architectureImageAlt": "Modular eCommerce architecture diagram showing Angular, YARP, five services, PostgreSQL, Redis, and RabbitMQ.",
+      "dataFlow": [
+        "The Angular storefront or admin UI calls the YARP gateway.",
+        "The gateway forwards each request to the relevant module service.",
+        "Catalog and order reads use Dapper; writes use EF Core and PostgreSQL.",
+        "Product and feature data are cached or stored in Redis, including persistent carts.",
+        "Checkout publishes order.created to RabbitMQ for the notification service."
+      ],
+      "apiDesign": [
+        "Gateway routes expose versioned auth, catalog, cart, and order APIs.",
+        "Admin routes cover product, category, order, user-role, and feature-flag operations.",
+        "The gateway provides one public entry point while services retain independent endpoint modules.",
+        "Demo OTP, seeded credentials, and local RabbitMQ management endpoints are documented for development."
+      ],
+      "databaseDesign": [
+        "PostgreSQL uses separate auth, catalog, and ordering schemas.",
+        "EF Core handles migrations and write models.",
+        "Dapper is used for read-heavy catalog and order queries.",
+        "Redis holds feature flag state, cached product data, and persistent carts."
+      ],
+      "decisions": [
+        {
+          "title": "One gateway, independent modules",
+          "detail": "YARP gives clients a stable entry point while each service keeps its own endpoints and dependencies. The monorepo improves local development without forcing a single deployment boundary."
+        },
+        {
+          "title": "Use both EF Core and Dapper",
+          "detail": "Write paths benefit from EF Core tracking and migrations. Read-heavy catalog and order queries use explicit SQL where the shape of the result matters more than entity tracking."
+        },
+        {
+          "title": "Put feature flags in Redis",
+          "detail": "Runtime flags can disable cart routes or login modes without rebuilding the frontend. Both customer and admin surfaces respect the same service state."
+        },
+        {
+          "title": "Make order placement an event",
+          "detail": "Publishing order.created keeps notification delivery out of the checkout request. The consumer can evolve or fail independently without changing the order API."
+        }
+      ],
+      "security": [
+        "JWT propagation and route guards protect customer and admin areas.",
+        "Admin feature-flag and user-role endpoints require an admin role.",
+        "Demo OTPs, seeded users, and local credentials must be replaced before any real deployment.",
+        "Secrets and production connection strings are not committed; they should come from environment configuration."
+      ],
+      "performance": [
+        "Redis caching reduces repeated catalog reads.",
+        "Dapper keeps read queries explicit and avoids unnecessary tracking.",
+        "Asynchronous order events remove notification work from the checkout path.",
+        "No production throughput or latency benchmark is claimed for the project."
+      ],
+      "challenges": [
+        {
+          "title": "Keeping modules independent inside one repository",
+          "detail": "Shared building blocks reduce duplication, but every shared abstraction risks becoming a hidden coupling point. Module registration and contracts are kept narrow."
+        },
+        {
+          "title": "Coordinating feature state across UI and APIs",
+          "detail": "A flag that hides a cart route must also disable the cart API. The same Redis-backed state drives route guards and endpoint responses."
+        }
+      ],
+      "tradeoffs": [
+        "A monorepo simplifies local orchestration but can encourage accidental cross-module dependencies.",
+        "Redis persistence makes carts fast but introduces a second stateful dependency alongside PostgreSQL.",
+        "RabbitMQ creates a useful async boundary but adds operational complexity for a local demo."
+      ],
+      "testing": [
+        "Documented verification includes .NET restore and build, Angular production build, and generated EF Core migrations.",
+        "The repository includes seed data and a demo OTP path for local flow testing.",
+        "A full automated integration and end-to-end test suite is not claimed."
+      ],
+      "results": [
+        "Implemented the gateway plus auth, catalog, cart, order, and notification modules.",
+        "Added Redis caching and carts, PostgreSQL schema separation, and RabbitMQ order events.",
+        "Built a responsive Angular storefront with a separate admin workspace and feature-flag management.",
+        "Verified the documented .NET build, Angular production build, and migrations."
+      ],
+      "lessons": [
+        "Service boundaries are defined by contracts and data ownership, not by folder names.",
+        "Runtime feature flags need one source of truth across the UI and API.",
+        "An async event is valuable only when the consumer can fail without corrupting the core transaction."
+      ],
+      "relatedSlugs": [
+        "ecommerce-application",
+        "fleet-manager"
+      ]
+    },
+    {
+      "slug": "portfolio-platform",
+      "title": "Developer Portfolio Platform",
+      "summary": "A data-driven portfolio built with React, TypeScript, and an interactive 3D technology core.",
+      "description": "A personal portfolio platform designed to present engineering work through detailed case studies, a recruiter-focused resume, and a premium interactive experience. Content is centralized in one typed source, routes are code-split, and the 3D scene loads without delaying the page text.",
+      "role": "Design and development",
+      "timeline": "2026",
+      "categories": [
+        "Personal Projects",
+        "Full Stack"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "React Router",
+        "React Three Fiber",
+        "Three.js",
+        "Vitest"
+      ],
+      "featured": true,
+      "status": "published",
+      "coverImage": "/projects/portfolio-platform-cover.png",
+      "coverAlt": "Developer Portfolio Platform cover showing typed content, routes, case studies, and the 3D hero.",
+      "links": {
+        "live": "",
+        "github": "",
+        "caseStudy": true
+      },
+      "problem": "A resume alone cannot show how an engineer reasons about architecture, trade-offs, or production constraints. The portfolio needed to communicate technical depth and professional focus without inventing metrics or exposing employer-confidential work.",
+      "goals": [
+        "Make technical experience quick to scan for recruiters and hiring managers.",
+        "Give each case study a stable, shareable URL.",
+        "Keep every public page driven by one typed content source.",
+        "Deliver a distinctive interactive experience without delaying critical text.",
+        "Meet accessibility and performance budgets on modest mobile devices."
+      ],
+      "constraints": [
+        "Static hosting for the first release, with no application backend.",
+        "No employer names, client data, proprietary architecture, or invented achievements.",
+        "No fabricated metrics, testimonials, certifications, or project counts.",
+        "The 3D experience must degrade gracefully when WebGL or motion is unavailable."
+      ],
+      "contribution": [
+        "Defined the product structure, visual system, and content model.",
+        "Built the React and TypeScript application, shared components, and route structure.",
+        "Implemented the interactive React Three Fiber hero with fallbacks and reduced-motion handling.",
+        "Implemented SEO metadata, structured data, sitemap generation, and accessibility behaviour.",
+        "Wrote the test suite for content helpers, contact validation, filtering, and route rendering."
+      ],
+      "architecture": "The site is a Vite-built React single-page application. Public content lives in portfolioData.json and is read through a typed repository and selector layer, so page components never import the raw JSON directly. Routes are code-split, while the Three.js scene is a separate lazy chunk that mounts after the page has rendered. SEO metadata and structured data are generated at runtime from the same content source.",
+      "architectureImage": "/projects/portfolio-architecture.svg",
+      "architectureImageAlt": "Architecture diagram showing the React application, typed content repository, JSON source, lazy 3D chunk, and SEO layer.",
+      "dataFlow": [
+        "portfolioData.json is loaded once through the JSON repository adapter.",
+        "Typed selectors expose profile, skills, projects, articles, navigation, and contact configuration.",
+        "Pages and shared components consume selectors rather than raw content or duplicated URLs.",
+        "The 3D hero is imported asynchronously and receives only a small set of presentation props.",
+        "A build-time script generates robots.txt and, when a domain is configured, sitemap.xml."
+      ],
+      "apiDesign": [
+        "No public API is required for the first release.",
+        "The content boundary is intentionally shaped like a repository so a future Supabase or REST implementation can replace the JSON adapter without rewriting pages.",
+        "The contact integration boundary accepts either a mailto fallback or a configured HTTPS endpoint, with server-side validation still required for any endpoint."
+      ],
+      "databaseDesign": [
+        "The JSON release uses no database.",
+        "The data model mirrors future relational entities such as projects, skills, experience, articles, and resumes.",
+        "A future CMS can map these collections to normalized tables with stable slugs and publication status."
+      ],
+      "decisions": [
+        {
+          "title": "Centralize content behind typed selectors",
+          "detail": "Components depend on domain types and small helper functions. This removes duplicated profile data and makes a later CMS migration a repository change rather than a page rewrite."
+        },
+        {
+          "title": "Lazy-load the 3D experience",
+          "detail": "Three.js and React Three Fiber are isolated in a separate chunk. The hero headline and calls to action render immediately, and the scene fades in after the critical content."
+        },
+        {
+          "title": "Hide unavailable actions",
+          "detail": "Missing resumes, social profiles, contact channels, and project links are not rendered as dead buttons. Empty sections use intentional states instead of mock achievements."
+        },
+        {
+          "title": "Treat the resume as structured content",
+          "detail": "The resume page is generated from the same profile and project data as the rest of the site, with a print stylesheet for saving a current PDF copy."
+        }
+      ],
+      "security": [
+        "External URLs are validated before rendering, allowing only HTTP, HTTPS, mailto, and same-origin asset paths where appropriate.",
+        "No secrets, API keys, or private employer data are included in the client bundle.",
+        "The contact form does not claim a delivery path that is not configured.",
+        "Any future contact endpoint must validate and rate-limit submissions on the server."
+      ],
+      "performance": [
+        "Route-level code splitting keeps non-home pages out of the initial bundle.",
+        "The 3D scene is lazy-loaded, capped in device pixel ratio, and paused when the page is hidden.",
+        "Self-hosted variable fonts avoid third-party font requests and layout shifts.",
+        "Animations are short, transform-based, and disabled when the visitor prefers reduced motion.",
+        "No heavy post-processing or external 3D assets are used."
+      ],
+      "challenges": [
+        {
+          "title": "Keeping a 3D hero from blocking the first render",
+          "detail": "The scene is loaded after idle time and rendered into a reserved aspect-ratio container. A static SVG composition occupies the same space until the canvas is ready, so the hero text is never delayed and layout does not jump."
+        },
+        {
+          "title": "Designing for missing content",
+          "detail": "The initial content intentionally omitted contact details and employment records. Every section needed a credible empty state instead of placeholder achievements or broken links."
+        },
+        {
+          "title": "Making filters and tabs accessible",
+          "detail": "Category controls use native buttons with explicit state, keyboard arrow navigation, and visible focus. Search and filter state are reflected in the URL so results can be shared."
+        }
+      ],
+      "tradeoffs": [
+        "JSON content is easy to version but requires a rebuild to publish, unlike a database-backed CMS.",
+        "The initial release has no server-side contact storage; enabling messaging requires a deployed endpoint.",
+        "The 3D scene favours a clean, lightweight composition over expensive transmission materials or post-processing."
+      ],
+      "testing": [
+        "Vitest and React Testing Library cover content selectors, validation, project search and filtering, route rendering, and contact submission states.",
+        "TypeScript strict mode, ESLint, and a production build are run as part of the release checklist.",
+        "Manual checks cover responsive layouts, keyboard navigation, reduced motion, direct route refreshes, and WebGL fallbacks."
+      ],
+      "results": [
+        "All public routes are implemented, including shareable project and article routes.",
+        "The portfolio ships with detailed case studies, project search and filtering, and a print-ready resume.",
+        "The 3D hero is a real interactive scene with a static fallback, reduced-motion support, and no impact on text availability.",
+        "No production user metrics, performance scores, or business outcomes are claimed for this personal project."
+      ],
+      "lessons": [
+        "A content model is part of the product design, not an implementation detail.",
+        "The most credible portfolio is one that can show its own engineering decisions and limits.",
+        "Progressive enhancement is essential when a signature visual depends on WebGL.",
+        "Empty states deserve the same design attention as populated ones."
+      ],
+      "relatedSlugs": [
+        "agentflow",
+        "modular-ecommerce-platform"
+      ],
+      "codeSnippets": [
+        {
+          "title": "Validating external destinations before rendering",
+          "language": "ts",
+          "caption": "Safe URL filtering prevents javascript: and other unsafe schemes from reaching an anchor element.",
+          "code": "export function getSafeExternalUrl(value?: string): string | undefined {\n  if (!value?.trim()) return undefined;\n\n  try {\n    const url = new URL(value, window.location.origin);\n    if (!['http:', 'https:', 'mailto:'].includes(url.protocol)) {\n      return undefined;\n    }\n    return url.toString();\n  } catch {\n    return undefined;\n  }\n}"
+        }
+      ]
+    },
+    {
+      "slug": "fleet-manager",
+      "title": "Fleet Manager — .NET 8 Architecture Foundation",
+      "summary": "A .NET 8 backend foundation for registering, monitoring, and auditing infrastructure nodes with Clean Architecture, DDD boundaries, EF Core, and PostgreSQL.",
+      "description": "Fleet Manager models a managed host as a node with a validated hostname and IP address, a lifecycle state, and last-seen metadata. The solution separates API, application, contracts, domain, and infrastructure projects, and captures modifications through an EF Core audit interceptor. The repository currently stops at the architectural foundation: the solution builds and hosts Swagger, while node endpoints, migrations, health probes, authentication, and tests are planned.",
+      "role": "Design and development",
+      "timeline": "2026",
+      "categories": [
+        "Backend",
+        "Architecture",
+        "Cloud"
+      ],
+      "technologies": [
+        ".NET 8",
+        "ASP.NET Core",
+        "C#",
+        "Clean Architecture",
+        "Domain-Driven Design",
+        "Entity Framework Core",
+        "PostgreSQL",
+        "Swagger",
+        "Docker"
+      ],
+      "featured": false,
+      "status": "published",
+      "coverImage": "/projects/fleet-manager-cover.png",
+      "coverAlt": "Fleet Manager case study cover showing the API host, application layer, domain model, and PostgreSQL.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/fleet-manager",
+        "caseStudy": true
+      },
+      "problem": "Managing a fleet needs one source of truth for each node: identity, network address, operating system, reachability, lifecycle state, and who changed what. The project explores those rules before adding endpoints or infrastructure wiring.",
+      "goals": [
+        "Keep domain rules independent of the web host and database.",
+        "Model hostname and IP address as validated value objects.",
+        "Represent node lifecycle transitions explicitly.",
+        "Capture an audit trail without asking every handler to write it manually.",
+        "Provide a buildable, container-ready API host as a foundation for later endpoints."
+      ],
+      "constraints": [
+        "The repository is an architectural foundation, not a completed fleet-management product.",
+        "Node registration, listing, and status endpoints are not implemented yet.",
+        "EF Core migrations and DbContext registration in the API host remain roadmap work.",
+        "SSH health probes, authentication, role-based authorization, and tests are not implemented."
+      ],
+      "contribution": [
+        "Defined the Clean Architecture solution structure and dependency direction.",
+        "Modelled the node aggregate, lifecycle states, and validated value objects.",
+        "Added auditable entity metadata and an EF Core save-changes interceptor.",
+        "Configured EF Core mappings for nodes and audit logs with PostgreSQL.",
+        "Added Swagger to the development host and a non-root Dockerfile.",
+        "Documented the current capabilities, schema, security notes, and roadmap."
+      ],
+      "architecture": "The API project depends inward on Application, Contracts, and Infrastructure. Application depends on Contracts and Domain, while Infrastructure implements persistence and depends on Domain and Application. Domain has no outward dependencies. EF Core configurations map the nodes and audit_logs tables, and the AuditInterceptor records update events at the persistence boundary.",
+      "architectureImage": "/projects/fleet-manager-architecture.svg",
+      "architectureImageAlt": "Fleet Manager architecture diagram showing API, Application, Domain, Contracts, Infrastructure, and PostgreSQL dependency direction.",
+      "dataFlow": [
+        "An operator would send a registration request to the API host.",
+        "The application layer would create a Node through domain rules.",
+        "Infrastructure would persist the node through EF Core.",
+        "The audit interceptor would record modifications with actor and timestamp metadata.",
+        "A scheduled health workflow would update state and last-seen data; this workflow is still planned."
+      ],
+      "apiDesign": [
+        "The API host currently exposes Swagger in development and a placeholder template endpoint.",
+        "Node registration, listing, and status endpoints are not yet implemented.",
+        "MediatR commands, queries, and FluentValidation validators are planned for the application layer.",
+        "Authentication and role-based authorization are roadmap items."
+      ],
+      "databaseDesign": [
+        "nodes stores id, hostname, IP address, OS and kernel versions, state, created time, and last-seen time.",
+        "audit_logs stores entity name, entity id, action, actor, and UTC timestamp.",
+        "The mappings are configured, but migrations and DbContext registration are not complete."
+      ],
+      "decisions": [
+        {
+          "title": "Protect the domain with value objects",
+          "detail": "Hostname and IP address are validated where they enter the domain model, preventing invalid network identity from spreading through the system."
+        },
+        {
+          "title": "Record audit events at persistence",
+          "detail": "An EF Core interceptor captures modifications automatically. Application handlers stay focused on use cases instead of repeating audit code."
+        },
+        {
+          "title": "Enforce dependency direction with projects",
+          "detail": "Separate Domain, Application, Contracts, Infrastructure, and API projects make an accidental inward dependency visible at build time."
+        },
+        {
+          "title": "Stop at a documented foundation",
+          "detail": "The README states exactly what is implemented and what remains. A clean architecture diagram is only useful if the unfinished edges are honest."
+        }
+      ],
+      "security": [
+        "The container runs as a non-root user.",
+        "Connection strings and secrets are expected through User Secrets or environment variables, not committed files.",
+        "No authentication or authorization is implemented yet.",
+        "SSH-based health probes would need strict host verification and credential handling before use."
+      ],
+      "performance": [
+        "No performance benchmark is claimed for this foundation-stage project.",
+        "Scheduled health probes are intended to update last-seen and state data without blocking API requests.",
+        "PostgreSQL indexes and query behaviour will be evaluated when endpoints and migrations exist."
+      ],
+      "challenges": [
+        {
+          "title": "Making an unfinished backend useful to review",
+          "detail": "A clean solution with no endpoints can look complete at a glance. The README calls out the missing persistence wiring, endpoints, probes, auth, and tests so the repository does not overstate its maturity."
+        },
+        {
+          "title": "Modelling lifecycle rules early",
+          "detail": "The full state enum exists, but the aggregate currently exposes only a subset of transitions. The remaining transitions should be added with the health workflow rather than invented ahead of time."
+        }
+      ],
+      "tradeoffs": [
+        "Five projects add ceremony for a small service, but make dependency direction explicit.",
+        "An audit interceptor reduces application code but introduces persistence-layer behaviour that must be tested.",
+        "PostgreSQL fits the intended infrastructure, but the project cannot demonstrate it until migrations and DbContext registration are complete."
+      ],
+      "testing": [
+        "No unit or integration test project is present yet; tests are listed on the roadmap.",
+        "The solution restores and builds, and the API host starts with Swagger in development.",
+        "Database and endpoint behaviour cannot be verified until the remaining persistence work is implemented."
+      ],
+      "results": [
+        "Implemented the Clean Architecture solution, node aggregate, value objects, lifecycle enum, and audit interceptor.",
+        "Configured EF Core mappings for PostgreSQL and added Swagger plus a non-root Dockerfile.",
+        "The solution builds and hosts the API foundation.",
+        "Node endpoints, migrations, health probes, auth, and tests remain explicitly unfinished."
+      ],
+      "lessons": [
+        "Architecture is a set of constraints, not a folder diagram.",
+        "An audit trail is most reliable when it is enforced at a boundary rather than remembered by each caller.",
+        "Documenting what is missing is part of engineering the foundation honestly."
+      ],
+      "relatedSlugs": [
+        "modular-ecommerce-platform",
+        "portfolio-platform"
+      ]
+    },
+    {
+      "slug": "ecommerce-application",
+      "title": "E-Commerce Application",
+      "summary": "An ASP.NET Core 7 and Angular 15 learning project with account registration, JWT and OTP login, password reset, product APIs, and an Angular Material front end.",
+      "description": "The repository pairs a layered ASP.NET Core backend with an Angular 15 Material client. It covers account registration, password and OTP login, forgot-password validation, product CRUD through MediatR handlers, and EF Core migrations. The front end focuses on authentication and dashboard flows rather than a complete checkout experience.",
+      "role": "Design and development (learning project)",
+      "timeline": "2024",
+      "categories": [
+        "Full Stack",
+        "Academic",
+        "Backend"
+      ],
+      "technologies": [
+        "C#",
+        "ASP.NET Core 7",
+        "Angular 15",
+        "TypeScript",
+        "Entity Framework Core",
+        "SQL Server",
+        "MediatR",
+        "AutoMapper",
+        "JWT",
+        "MailKit",
+        "Twilio",
+        "Angular Material"
+      ],
+      "featured": false,
+      "status": "published",
+      "coverImage": "/projects/ecommerce-application-cover.png",
+      "coverAlt": "E-Commerce Application cover showing Angular, JWT and OTP, product APIs, and SQL Server.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/ECommerceApplication",
+        "caseStudy": true
+      },
+      "problem": "The project was built to practise a full request path across an Angular client and a layered .NET backend: register a user, verify identity, issue a token, and protect product-management operations behind the API.",
+      "goals": [
+        "Implement registration, login, OTP verification, and password reset flows.",
+        "Separate API controllers, application handlers, domain entities, and persistence concerns.",
+        "Expose product CRUD endpoints with a consistent response shape.",
+        "Build a responsive Angular Material client for account and dashboard flows.",
+        "Use migrations to keep the relational schema reproducible."
+      ],
+      "constraints": [
+        "The repository is a learning project rather than a production commerce system.",
+        "The Angular client covers authentication and dashboard screens; a complete shopping checkout flow is not included.",
+        "Email and SMS integrations depend on externally supplied provider configuration.",
+        "No production deployment, payment flow, or performance benchmark is claimed."
+      ],
+      "contribution": [
+        "Built the layered ASP.NET Core backend with separate API, application, domain, identity, persistence, and shared projects.",
+        "Implemented account registration, password login, OTP login, forgot-password, and profile-oriented endpoints.",
+        "Added product commands and queries through MediatR with AutoMapper mapping.",
+        "Created EF Core migrations for users, products, carts, sales, and OTP data.",
+        "Built the Angular 15 Material client for sign-up, login, two-factor verification, and dashboard access."
+      ],
+      "architecture": "The Angular client calls an ASP.NET Core Web API. Controllers delegate product work to MediatR commands and queries, which use repositories over EF Core. Identity and persistence are separate infrastructure projects. SQL Server stores users, products, carts, sales records, and OTP data. MailKit and Twilio settings support email and SMS verification flows.",
+      "architectureImage": "/projects/ecommerce-application-architecture.svg",
+      "architectureImageAlt": "E-Commerce Application architecture diagram showing Angular 15, ASP.NET Core, MediatR, repositories, SQL Server, and OTP services.",
+      "dataFlow": [
+        "A user registers or logs in through the Angular client.",
+        "The API validates credentials and can issue or verify an OTP.",
+        "Authenticated product requests pass through a controller to a MediatR command or query.",
+        "Repositories persist or retrieve data through EF Core and SQL Server.",
+        "The Angular client renders the response in Material-based account and dashboard views."
+      ],
+      "apiDesign": [
+        "Account endpoints cover register, login, OTP login, forgot password, OTP validation, and password change.",
+        "Product endpoints cover list, detail, create, update, and delete operations.",
+        "Product operations use MediatR commands and queries instead of putting business logic in controllers.",
+        "JWT bearer authentication is configured for protected operations."
+      ],
+      "databaseDesign": [
+        "The schema includes users, products, carts, sales, and password or login OTP records.",
+        "EF Core migrations create and evolve the SQL Server schema.",
+        "Repository interfaces keep persistence details out of controllers and handlers."
+      ],
+      "decisions": [
+        {
+          "title": "Separate the API from the application layer",
+          "detail": "Controllers handle HTTP concerns while commands and queries describe the operation. This keeps product logic testable without a request object."
+        },
+        {
+          "title": "Use OTP as a second verification path",
+          "detail": "The login and password-reset flows support one-time codes through email or SMS configuration, giving the Angular client a realistic multi-step account experience."
+        },
+        {
+          "title": "Keep the front end focused",
+          "detail": "The Angular workspace concentrates on authentication and dashboard flows. Describing it as a complete storefront would overstate what the repository contains."
+        }
+      ],
+      "security": [
+        "JWT bearer authentication protects authorized product operations.",
+        "OTP records have a limited purpose and should expire quickly in a production system.",
+        "Provider credentials for email and SMS must come from configuration, not source control.",
+        "The learning project does not claim a production security review, rate limiting, or fraud controls."
+      ],
+      "performance": [
+        "No throughput or latency benchmark is claimed.",
+        "Pagination and query optimization would be necessary before a large catalog could use these endpoints.",
+        "The Angular production build is supported through the standard CLI build command."
+      ],
+      "challenges": [
+        {
+          "title": "Connecting identity and commerce concerns",
+          "detail": "User identity, OTP state, product data, and cart records live in different parts of the model. Keeping those responsibilities separated made the request flow easier to follow."
+        },
+        {
+          "title": "Scoping the learning project honestly",
+          "detail": "The repository contains meaningful account and product flows, but not a finished checkout. The case study reflects that boundary instead of presenting screenshots as a complete product."
+        }
+      ],
+      "tradeoffs": [
+        "Multiple backend projects make the dependency graph clearer but add setup overhead for a learning application.",
+        "OTP verification adds a realistic security step but depends on external providers and local configuration.",
+        "Angular Material speeds up accessible UI composition but brings a larger client dependency."
+      ],
+      "testing": [
+        "Angular spec scaffolding exists, but a documented end-to-end test suite is not present.",
+        "The backend includes migrations and buildable projects; manual Swagger and UI checks are the primary verification path.",
+        "No automated load or security testing is claimed."
+      ],
+      "results": [
+        "Implemented registration, password and OTP login, password reset, and product CRUD flows.",
+        "Built the Angular 15 Material account and dashboard experience.",
+        "Added EF Core migrations for user, product, cart, sales, and OTP data.",
+        "The repository remains a learning project without production metrics or a complete checkout claim."
+      ],
+      "lessons": [
+        "A controller should describe the request, not contain the whole business workflow.",
+        "Authentication state touches the client, the API, the database, and external providers.",
+        "Scoping a project honestly makes its actual technical depth easier to see."
+      ],
+      "relatedSlugs": [
+        "dynamic-question-generator",
+        "modular-ecommerce-platform"
+      ]
+    },
+    {
+      "slug": "dynamic-question-generator",
+      "title": "Dynamic Question Generator",
+      "summary": "A .NET 7 assessment API for creating scorable assessments and configurable questions with response types and required flags.",
+      "description": "The backend uses a layered .NET solution with MediatR commands and queries, repositories, AutoMapper, EF Core, and SQL Server. Assessment records own a collection of questions. Each question carries text, a response type, a required flag, and its parent assessment id. The repository contains the API only; no front-end application is included.",
+      "role": "Design and development (learning project)",
+      "timeline": "2024",
+      "categories": [
+        "Backend",
+        "Academic"
+      ],
+      "technologies": [
+        ".NET 7",
+        "ASP.NET Core",
+        "C#",
+        "MediatR",
+        "AutoMapper",
+        "Entity Framework Core",
+        "SQL Server",
+        "Swagger"
+      ],
+      "featured": false,
+      "status": "published",
+      "coverImage": "/projects/dynamic-question-generator-cover.png",
+      "coverAlt": "Dynamic Question Generator cover showing assessments, questions, handlers, and SQL Server.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/DynamicQuestion_Genrator",
+        "caseStudy": true
+      },
+      "problem": "Assessment software needs a flexible question model without letting controllers own the persistence workflow. The project explores how an assessment and its questions can be created and retrieved through a clean application boundary.",
+      "goals": [
+        "Create assessments with a name and scorable flag.",
+        "Attach questions with configurable response types and required flags.",
+        "Separate API controllers from application handlers and persistence.",
+        "Use EF Core migrations to maintain the relational schema.",
+        "Expose Swagger for manual API discovery."
+      ],
+      "constraints": [
+        "The repository contains the backend only; there is no front-end application.",
+        "The model is intentionally small: assessment identity, scorable flag, question text, response type, and required flag.",
+        "Authentication, authorization, publisher workflows, and automated tests are not implemented.",
+        "The project is a learning implementation, not a production assessment platform."
+      ],
+      "contribution": [
+        "Built the layered ASP.NET Core solution with API, application, domain, and persistence projects.",
+        "Implemented assessment and question entities with a one-to-many relationship.",
+        "Added MediatR commands and queries for create, update, list, and detail operations.",
+        "Wired repositories, AutoMapper profiles, EF Core, SQL Server, and Swagger.",
+        "Committed the initial EF Core migration for the assessment schema."
+      ],
+      "architecture": "Controllers in the Web API project send commands and queries through MediatR. Handlers depend on repository interfaces from the application layer. Infrastructure implements those repositories with EF Core over SQL Server. Domain entities hold the assessment and question data, while DTOs and AutoMapper shape the API responses.",
+      "architectureImage": "/projects/dynamic-question-architecture.svg",
+      "architectureImageAlt": "Dynamic Question Generator architecture diagram showing the API, MediatR handlers, repositories, and SQL Server.",
+      "dataFlow": [
+        "A request reaches the assessment controller.",
+        "The controller creates a MediatR command or query.",
+        "A handler validates the request and uses a repository.",
+        "EF Core persists or retrieves assessment and question records.",
+        "A response wrapper returns the result with an HTTP status code."
+      ],
+      "apiDesign": [
+        "POST /NewAssessment creates an assessment with a name and scorable flag.",
+        "POST /CreateQuestions accepts a list of questions for an assessment.",
+        "PUT /{id} updates an assessment; GET /{id} and GET / return detail and list results.",
+        "No authentication or authorization is documented for the API."
+      ],
+      "databaseDesign": [
+        "Assessment stores an id, name, and scorable flag.",
+        "AssessmentQuestions stores question text, response type, required flag, and assessment id.",
+        "The relationship is one assessment to many questions.",
+        "An initial EF Core migration is included in the repository."
+      ],
+      "decisions": [
+        {
+          "title": "Use MediatR instead of fat controllers",
+          "detail": "Each operation becomes an explicit command or query, keeping HTTP concerns separate from the assessment workflow."
+        },
+        {
+          "title": "Keep the question model configurable",
+          "detail": "Response type and required flag live on the question, so the same assessment structure can support multiple input styles."
+        },
+        {
+          "title": "Isolate database access behind repositories",
+          "detail": "Application handlers depend on interfaces rather than EF Core directly, which keeps the persistence implementation replaceable and the handler easier to read."
+        }
+      ],
+      "security": [
+        "The API does not document authentication or authorization and should not be exposed publicly as-is.",
+        "Empty question lists are rejected at the controller boundary.",
+        "A production assessment service would need ownership checks, role controls, and stricter validation on every command."
+      ],
+      "performance": [
+        "No performance benchmark is claimed.",
+        "Assessment and question reads are small in the current model; pagination would be needed for larger collections.",
+        "No caching or asynchronous processing is implemented."
+      ],
+      "challenges": [
+        {
+          "title": "Keeping the model small enough to finish",
+          "detail": "An assessment platform can grow into scheduling, scoring, attempts, and reporting. The project keeps the entities focused on assessment definition and question configuration."
+        },
+        {
+          "title": "Making the layers visible",
+          "detail": "The solution separates domain, application, and persistence concerns, but the small scope makes it important not to imply more production hardening than exists."
+        }
+      ],
+      "tradeoffs": [
+        "MediatR and repositories add indirection to a small API, but make the request flow explicit.",
+        "The simplified model is easy to understand but does not yet cover attempts, scoring, or reporting.",
+        "SQL Server and EF Core provide a familiar relational path but need more operational work before production use."
+      ],
+      "testing": [
+        "No automated test project is present.",
+        "The API can be explored through Swagger and the committed EF Core migration.",
+        "Validation and scoring behaviour are not covered by an automated suite."
+      ],
+      "results": [
+        "Implemented assessment creation, question creation, updates, and read operations in the backend.",
+        "Added a one-to-many assessment/question model with EF Core and an initial migration.",
+        "The API is documented through Swagger and follows a command/query structure.",
+        "No front end, attempt workflow, or production scoring engine is claimed."
+      ],
+      "lessons": [
+        "Small domain models still benefit from clear application boundaries.",
+        "A command or query name is a useful description of the operation.",
+        "An API is not complete just because the happy-path endpoints compile."
+      ],
+      "relatedSlugs": [
+        "ecommerce-application",
+        "fleet-manager"
+      ]
+    },
+    {
+      "slug": "blockchain-logistics-privacy",
+      "title": "Blockchain Logistics Privacy Prototype",
+      "summary": "An academic Flask and MySQL prototype exploring RSA encryption, SHA-1 hashing, and email notifications for logistics privacy and traceability.",
+      "description": "The project was an academic exploration of how logistics records could be protected and traced. The Flask application handles registration, login, file upload, encryption, hashing, and notification flows. RSA key generation and PKCS#1 OAEP encryption are demonstrated in the upload path, while MySQL stores application records. The repository also includes an early web3.py scratch file, but the main application flow does not connect to a blockchain network.",
+      "role": "Academic project",
+      "timeline": "2023",
+      "categories": [
+        "Academic",
+        "Backend",
+        "Security"
+      ],
+      "technologies": [
+        "Python",
+        "Flask",
+        "MySQL",
+        "RSA",
+        "SHA-1",
+        "SMTP",
+        "Pandas"
+      ],
+      "featured": false,
+      "status": "published",
+      "coverImage": "/projects/blockchain-logistics-privacy-cover.png",
+      "coverAlt": "Logistics privacy prototype cover showing registration, upload, encryption, hashing, and email flows.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/The-Logistic-System-Privacy-And-Traceability-Using-Blockchain",
+        "caseStudy": true
+      },
+      "problem": "Logistics information is shared across parties, which makes privacy and traceability difficult to reason about. The academic project explored whether encryption, hashing, and an auditable record could improve that flow.",
+      "goals": [
+        "Register senders and authenticate access to the application.",
+        "Accept logistics files for processing.",
+        "Encrypt file content before storage or transfer.",
+        "Generate a hash-based representation for traceability.",
+        "Notify a participant through email when a record is processed."
+      ],
+      "constraints": [
+        "The repository is an academic prototype, not a production logistics platform.",
+        "SHA-1 and a locally generated RSA key pair are educational choices; modern systems should use current hashing and signature standards.",
+        "Database credentials and the Flask secret are hard-coded in the original prototype.",
+        "The main flow uses Flask and MySQL; it does not integrate with a live blockchain network."
+      ],
+      "contribution": [
+        "Built the Flask registration, login, upload, and tracking flow.",
+        "Implemented RSA key generation and PKCS#1 OAEP encryption for uploaded content.",
+        "Added SHA-1 hashing over split file content for the traceability demo.",
+        "Connected the application to MySQL and included the SQL schema.",
+        "Added SMTP notification handling and a research notes file."
+      ],
+      "architecture": "A Flask application serves the registration and upload pages. Uploaded file content is read locally, encrypted with a generated RSA public key, and hashed for the traceability demonstration. MySQL stores sender and logistics records. Email notifications are sent through SMTP. The architecture is a single-process academic prototype, not a distributed ledger.",
+      "architectureImage": "/projects/blockchain-logistics-architecture.svg",
+      "architectureImageAlt": "Logistics prototype architecture diagram showing Flask, RSA encryption, file hashing, MySQL, and email.",
+      "dataFlow": [
+        "A user registers or logs in through Flask-rendered pages.",
+        "An uploaded file is read by the server.",
+        "The prototype generates an RSA key pair and encrypts the content with OAEP.",
+        "A SHA-1 digest is produced over split file content for the demo.",
+        "The record is stored in MySQL and an SMTP notification can be sent."
+      ],
+      "apiDesign": [
+        "The application uses Flask routes with HTML templates rather than a JSON API.",
+        "Registration, login, upload, and tracking are separate routes.",
+        "No authentication middleware, API contract, or versioning layer is implemented."
+      ],
+      "databaseDesign": [
+        "MySQL stores sender and logistics data.",
+        "The repository includes a SQL schema file alongside the Flask application.",
+        "The database credentials in the prototype are local development values and must not be reused."
+      ],
+      "decisions": [
+        {
+          "title": "Encrypt before storing",
+          "detail": "The upload path generates an RSA key pair and encrypts the file content before the rest of the workflow. The prototype demonstrates the boundary even though key management is not production-grade."
+        },
+        {
+          "title": "Hash for traceability",
+          "detail": "A digest gives the workflow a stable representation to compare or record. The implementation uses SHA-1 because it was a learning exercise and is not a recommendation for new systems."
+        },
+        {
+          "title": "Keep the flow understandable",
+          "detail": "The project stays in one Flask application so the registration, encryption, storage, and notification steps can be followed without distributed infrastructure."
+        }
+      ],
+      "security": [
+        "RSA-OAEP encryption is demonstrated, but private-key storage and rotation are not production-ready.",
+        "SHA-1 is deprecated for security-sensitive use; a modern design should use SHA-256 or newer.",
+        "The original source contains hard-coded database credentials and a Flask secret.",
+        "The SMTP credentials are placeholders and should never be committed as real values."
+      ],
+      "performance": [
+        "No performance benchmark is claimed.",
+        "The prototype processes local files synchronously in one Flask process.",
+        "A production system would need asynchronous processing, storage limits, and a real key-management design."
+      ],
+      "challenges": [
+        {
+          "title": "Separating the research idea from the implementation",
+          "detail": "The repository title references blockchain, but the working application is a Flask and MySQL prototype. The case study describes the implemented flow rather than implying a production ledger."
+        },
+        {
+          "title": "Handling cryptographic material in a demo",
+          "detail": "Generating keys inside the upload request made the concept visible but also exposed why key storage, rotation, and auditing need deliberate design."
+        }
+      ],
+      "tradeoffs": [
+        "A single Flask process is easy to demonstrate but does not provide distributed trust or fault tolerance.",
+        "Encryption protects content at rest but does not by itself provide traceability across organisations.",
+        "SHA-1 was simple to use in the coursework but should not be carried into a modern security design."
+      ],
+      "testing": [
+        "The prototype was verified through manual academic demonstration.",
+        "There is no automated test suite, load test, or security review.",
+        "The included SQL schema and local setup are the primary reproduction path."
+      ],
+      "results": [
+        "Implemented the registration, login, upload, encryption, hashing, MySQL storage, and SMTP notification flow.",
+        "Included the research SQL schema and a separate web3.py scratch file.",
+        "The project remains an academic prototype without a live blockchain integration or production claim."
+      ],
+      "lessons": [
+        "Encryption, hashing, and traceability are separate concerns that need separate designs.",
+        "A proof of concept can demonstrate a mechanism while still being unsuitable for production.",
+        "When a project title promises more than the implementation, the honest boundary matters."
+      ],
+      "relatedSlugs": [
+        "face-mask-detection",
+        "portfolio-platform"
+      ]
+    },
+    {
+      "slug": "face-mask-detection",
+      "title": "Face Mask Detection with Alert System",
+      "summary": "A Python computer-vision prototype that detects faces, classifies mask or no-mask with a trained Keras model, and sends an email alert on a violation.",
+      "description": "The project uses OpenCV to capture webcam frames and a Haar cascade to locate faces. Each face is resized and passed to a locally trained Keras model, which classifies it as Mask or No Mask. A no-mask result triggers a Tkinter warning and an SMTP email. A separate data-collection script builds the training folders from webcam images.",
+      "role": "Academic project",
+      "timeline": "2023",
+      "categories": [
+        "Academic",
+        "Computer Vision",
+        "AI & Automation"
+      ],
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "Keras",
+        "NumPy",
+        "Tkinter",
+        "SMTP"
+      ],
+      "featured": false,
+      "status": "published",
+      "coverImage": "/projects/face-mask-detection-cover.png",
+      "coverAlt": "Face Mask Detection cover showing webcam input, Haar cascade, Keras classifier, and email alert.",
+      "links": {
+        "github": "https://github.com/SushantBuche-107/Face-mask-detection-with-alert-system",
+        "caseStudy": true
+      },
+      "problem": "The academic project explored a practical computer-vision pipeline: detect a face in a live frame, classify whether it is covered, and turn a policy violation into an immediate alert without a server-side inference service.",
+      "goals": [
+        "Collect a small labelled image set for mask and no-mask classes.",
+        "Detect face regions in webcam frames.",
+        "Classify each detected face with a trained model.",
+        "Show a visible warning when a violation is detected.",
+        "Send an email alert with the configured SMTP account."
+      ],
+      "constraints": [
+        "The model is trained on a small locally collected dataset.",
+        "The Haar cascade is sensitive to lighting, angle, and occlusion.",
+        "SMTP credentials are placeholders in the repository and must be supplied locally.",
+        "The project is a desktop prototype, not a production access-control system."
+      ],
+      "contribution": [
+        "Built the webcam data-collection flow with separate class folders.",
+        "Trained a Keras classifier on 32x32 grayscale face crops.",
+        "Used OpenCV and a Haar cascade to locate faces in each frame.",
+        "Added a Tkinter warning and SMTP notification on a no-mask result.",
+        "Documented the setup and the model-improvement loop."
+      ],
+      "architecture": "The desktop script opens the default camera with OpenCV, converts frames to grayscale, and detects faces with haarcascade_frontalface_default.xml. Each face crop is resized to 32x32, normalised, and passed to MyTrainingModel.h5. A no-mask prediction triggers a Tkinter warning and an email over SMTP. The model and cascade are local files.",
+      "architectureImage": "/projects/face-mask-architecture.svg",
+      "architectureImageAlt": "Face Mask Detection architecture diagram showing webcam, OpenCV Haar cascade, Keras model, and alert path.",
+      "dataFlow": [
+        "The data collector captures webcam frames into mask and no-mask folders.",
+        "The training model learns from 32x32 grayscale face crops.",
+        "At runtime, OpenCV reads a frame and locates face rectangles.",
+        "Each face is resized, normalised, and classified by the Keras model.",
+        "A no-mask result shows a warning and sends an SMTP email."
+      ],
+      "apiDesign": [
+        "There is no network API. The prototype runs as a local OpenCV window.",
+        "SMTP is the only external integration in the alert path."
+      ],
+      "databaseDesign": [
+        "No database is used.",
+        "Training images and the model file are stored locally in the repository or working directory."
+      ],
+      "decisions": [
+        {
+          "title": "Use a Haar cascade for face detection",
+          "detail": "The cascade is lightweight and easy to run on a local CPU, which fits a small academic prototype."
+        },
+        {
+          "title": "Train a small classifier",
+          "detail": "A compact 32x32 grayscale input keeps the data-collection and training loop approachable on limited hardware."
+        },
+        {
+          "title": "Make the alert immediate",
+          "detail": "A visible warning and an email create an end-to-end response instead of stopping at a prediction label."
+        }
+      ],
+      "security": [
+        "The repository uses placeholder SMTP credentials; real credentials must be supplied locally and never committed.",
+        "The prototype processes camera frames locally and does not upload video.",
+        "No access-control decision should depend on this model without stronger accuracy and human review."
+      ],
+      "performance": [
+        "The prototype runs frame-by-frame on the local CPU and does not claim a real-time benchmark.",
+        "The Haar cascade is lightweight; model accuracy and speed depend on the training data and hardware.",
+        "No production throughput or false-positive rate is claimed."
+      ],
+      "challenges": [
+        {
+          "title": "Building a usable dataset from scratch",
+          "detail": "The project begins with a local data collector. That makes the pipeline self-contained but also limits accuracy compared with a larger curated dataset."
+        },
+        {
+          "title": "Turning a classification into a workflow",
+          "detail": "A prediction is only useful here if it triggers a visible response and an alert. The alert path adds SMTP and desktop UI concerns beyond the model."
+        }
+      ],
+      "tradeoffs": [
+        "Haar detection is fast and simple but less robust than a modern face detector.",
+        "A small local model is easy to train but has limited generalisation.",
+        "Immediate email alerts demonstrate the flow but are not a dependable production notification system."
+      ],
+      "testing": [
+        "The README describes manual data collection, model training, and runtime checks.",
+        "There is no automated accuracy evaluation, confusion matrix, or benchmark in the repository.",
+        "The model should be retrained with more varied data before making any accuracy claim."
+      ],
+      "results": [
+        "Implemented the data-collection, training, webcam inference, warning, and email-alert flow.",
+        "The prototype classifies detected faces as Mask or No Mask and responds to violations.",
+        "No production accuracy or deployment claim is made."
+      ],
+      "lessons": [
+        "Data collection is part of the computer-vision product, not a preliminary chore.",
+        "A useful demo needs the decision and the response, not only the prediction.",
+        "Face-related systems need careful privacy and accuracy discussions before deployment."
+      ],
+      "relatedSlugs": [
+        "blockchain-logistics-privacy",
+        "agentflow"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "software-developer-level-2",
+      "employer": "Confidential employer · Healthcare & insurance technology",
+      "role": "Software Developer Level 2",
+      "startDate": "2023-10",
+      "current": true,
+      "arrangement": "Full-time",
+      "location": "India",
+      "summary": "Joined as a Consultant and progressed through Software Developer Level 1 to Level 2. I build and maintain full-stack .NET applications across healthcare and insurance platforms, spanning patient and caregiver workflows, claims and EDI integrations, and production support.",
+      "responsibilities": [
+        "Design and maintain ASP.NET Core APIs, background jobs, and business workflows for healthcare and insurance platforms.",
+        "Integrate internal and third-party systems, including EDI claims over SFTP, IVR, and API-based data exchange.",
+        "Write and tune SQL Server queries, stored procedures, and indexes for high-use application paths.",
+        "Apply Redis caching, reliable data access, and cloud-hosted services across AWS EC2 and Microsoft Azure.",
+        "Investigate production incidents using logs, database evidence, and root-cause analysis, then document the fix and preventive actions.",
+        "Work with microservice boundaries, CQRS and Clean Architecture patterns, Vault-based secrets, and containerized deployment workflows."
+      ],
+      "achievements": [
+        "Promoted twice: Consultant to Software Developer Level 1, then to Level 2.",
+        "Reduced measured query execution time by roughly 30% on one production workload through query and index optimization.",
+        "Supported production root-cause analysis and remediation for customer-facing healthcare workflows."
+      ],
+      "technologies": [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "SQL Server",
+        "Redis",
+        "AWS EC2",
+        "Microsoft Azure",
+        "HashiCorp Vault",
+        "Docker",
+        "EDI",
+        "SFTP",
+        "REST APIs",
+        "CQRS",
+        "Clean Architecture"
+      ],
+      "relatedProjects": []
+    }
+  ],
+  "education": [
+    {
+      "id": "be-computer-technology",
+      "qualification": "B.E. Computer Technology",
+      "institution": "KITS Ramtek, RTM Nagpur University",
+      "year": "2023",
+      "grade": "CGPA: 6.98 / 10",
+      "location": "Ramtek, Maharashtra"
+    },
+    {
+      "id": "hsc",
+      "qualification": "Higher Secondary Certificate (HSC)",
+      "institution": "Maharashtra State Board",
+      "year": "2019",
+      "grade": "79.83%"
+    },
+    {
+      "id": "ssc",
+      "qualification": "Secondary School Certificate (SSC)",
+      "institution": "CBSE",
+      "year": "2017",
+      "grade": "CGPA: 6.4 / 10"
+    }
+  ],
+  "certifications": [],
+  "resumes": [],
+  "resume": {
+    "printEnabled": true,
+    "downloadNote": "A PDF resume is not hosted yet. Use Print / Save as PDF to generate a current copy from this page.",
+    "summary": "Software Developer Level 2 with 2.8+ years of experience building and maintaining full-stack .NET applications, APIs, integrations, and production workflows. Focused on C#, ASP.NET Core, SQL Server, Redis, and cloud-hosted delivery, with domain experience across healthcare and insurance technology. Worked on patient and caregiver workflows, EDI claims over SFTP, IVR and third-party APIs, query performance, and production root-cause analysis."
+  },
+  "articles": [
+    {
+      "slug": "yaml-defined-ai-workflows-agentflow",
+      "title": "YAML-defined AI workflows: lessons from building AgentFlow",
+      "summary": "What changes when an AI agent pipeline becomes a reviewable YAML document, and where a reference scaffold still needs production hardening.",
+      "body": "Most AI demos put the workflow in application code: call a model, parse the response, call the next tool, repeat. That is quick to start and difficult to review when the sequence changes. AgentFlow explores a different starting point: describe the pipeline as data, then let an orchestrator resolve and run the nodes.\n\n![AgentFlow architecture](/projects/agentflow-architecture.svg)\n\n## Why make the workflow data?\n\nA workflow expressed in YAML can be reviewed, diffed, versioned, and reused without editing the scheduler. The orchestration layer only needs to understand nodes, implementations, order, and context. Domain logic stays inside agents.\n\nThat separation is the core idea. The orchestrator owns control flow. The agent owns the work. An implementation can change without rewriting the execution engine.\n\n## The execution model\n\nThe sample workflow lists an entry node and an ordered set of steps. Each step has an id, a type, and a dotted path to a Python callable.\n\n~~~yaml\nversion: '1.0'\nid: demo_workflow\ndescription: Demo workflow: Invoice + RAG agent integration\nentry: invoice_start\nnodes:\n  - id: invoice_start\n    type: InputHandler\n    impl: agents.invoice_agent.worker.InvoiceAgent.run\n    next: invoice_validate\n  - id: rag_search\n    type: InputHandler\n    impl: agents.rag_agent.worker.RAGAgent.run\n    next: workflow_end\n~~~\n\nThe scheduler resolves those paths, executes each node, and records the result under the node id in a shared context. The next node can inspect the input and any previous result without a second coordination store.\n\nThat design is easy to reason about because execution is sequential. It is also deliberately limited. A production orchestration layer eventually needs a DAG, parallel branches, conditional edges, and stronger validation.\n\n## Failure handling and context\n\nEvery network call and model call can fail. AgentFlow gives the scheduler configurable retry attempts and records errors instead of terminating silently. Each node result is also published to Kafka on the agentflow topic, which creates an observability boundary separate from the HTTP response.\n\nThis is useful even in a prototype. The Kafka event is not there to make the demo look distributed. It establishes a place where a future consumer could replay results, build a dashboard, or decouple downstream processing.\n\nThe shared context remains a dictionary for now. A stricter model would use typed envelopes for every node and explicit context schemas.\n\n## What is intentionally missing\n\nThe repository is a reference scaffold, not a production agent platform. The README is explicit about the missing pieces:\n\n- No DAG execution, branching, or parallel nodes.\n- No strict Pydantic request models or YAML schema validation.\n- No workflow-run persistence in PostgreSQL.\n- No Redis locks or idempotency keys.\n- No authentication or sandboxed execution.\n- No test suite or CI yet.\n\nThose omissions matter. Dynamic dotted-path resolution is convenient in a trusted local project and dangerous for arbitrary user-supplied workflows. Before any public deployment, the implementation would need an allow-list for agent paths, resource limits, and a clear authorisation model.\n\n## What I would build next\n\nThe next useful slice is not more agents. It is making the existing control plane trustworthy: strict schemas, explicit node results, safer resolution, and a small test suite around retries and context propagation. After that, DAG execution can be added without guessing whether the current state is correct.\n\nYou can review the implementation and roadmap in the [AgentFlow repository](https://github.com/SushantBuche-107/agentflow).\n\n## Takeaway\n\nDeclarative orchestration is valuable because it makes the shape of a workflow visible. It is only safe when validation and execution boundaries are treated as first-class engineering work. A scaffold can be useful, but it should say exactly where the scaffold ends.",
+      "publicationDate": "2026-10-23",
+      "tags": [
+        "AI",
+        "Python",
+        "Architecture",
+        "Kafka"
+      ],
+      "coverImage": "/blog/yaml-defined-ai-workflows-agentflow-cover.png",
+      "coverAlt": "Article cover for YAML-defined AI workflows showing declaration, node resolution, execution, and event publishing.",
+      "published": true,
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "semantic-code-search-faiss",
+      "title": "Semantic code search with SentenceTransformers and FAISS",
+      "summary": "How an uploaded-file knowledge base becomes retrieval context for an AI assistant, and the limits that matter more than a demo screenshot.",
+      "body": "Keyword search works when you remember the exact term. It fails when the question and the source use different words. A semantic search flow solves a different problem: find the closest meaning, then use that source as context for an answer.\n\n![AI knowledge base architecture](/projects/ai-knowledge-architecture.svg)\n\n## The two flows\n\nThe application has an ingestion path and a query path.\n\nIngestion stores a file, embeds its description, and adds the vector to a FAISS index. Querying embeds the question and retrieves the nearest indexed entry. The chat view then sends the associated source file to OpenRouter along with the question.\n\nThe important boundary is that the model does not answer from memory alone. It receives a retrieved artifact that a developer can inspect.\n\n## Embedding and indexing\n\nThe project uses SentenceTransformers with the all-MiniLM-L6-v2 model. Embeddings are generated locally, so source descriptions do not need to be sent to an embedding provider. FAISS stores the vectors and performs inner-product search.\n\nThe metadata is intentionally simple: a local JSON knowledge base points to uploaded files. That keeps the prototype inspectable, but it also means the index and storage do not behave like a multi-user service. There is no tenant isolation, no access control, and no managed durability.\n\nA production version would separate at least three concerns:\n\n1. Metadata in a relational database.\n2. Files in object storage with access rules.\n3. Vectors in a managed or rebuildable index.\n\n## Grounding the chat response\n\nThe chat flow retrieves the best match and sends it as context. That is a useful grounding mechanism, but it is not a guarantee of correctness. Retrieval can return a plausible but wrong file, and the model can still misread the source.\n\nThe interface should make the source visible. A user needs to know which artifact informed the answer. The backend should also treat uploaded code as untrusted input: files may contain secrets, prompt injection text, or instructions that should not be followed.\n\n## The constraints are part of the design\n\nThe current implementation uses one best-matching file. That keeps prompts small and makes the answer traceable, but it misses cases where relevant material is spread across multiple documents. The next step is chunking and multi-document retrieval, not simply a larger prompt.\n\nThere is also no authentication. That is acceptable for a local personal project and unacceptable for a shared deployment. Uploaded filenames are made unique and secure, provider keys live in environment variables, and knowledge-base content is excluded from version control, but those are baseline protections rather than a complete security model.\n\n## What I would test next\n\nA semantic search project needs evaluation, not just a working demo. Useful next tests would include:\n\n- A labelled set of questions and expected source files.\n- Retrieval recall at one, three, and five results.\n- Chunking strategies for long code files.\n- Behaviour when the nearest match is not actually relevant.\n- Prompt-injection attempts embedded in uploaded content.\n\n## Takeaway\n\nSemantic search is a retrieval product, not a model trick. The value comes from a clear ingestion path, an inspectable source boundary, and honest limits around accuracy, access, and scale. You can explore the code in the [AI knowledge base repository](https://github.com/SushantBuche-107/ai-knowledge-base-code-assistant).",
+      "publicationDate": "2026-10-22",
+      "tags": [
+        "AI",
+        "Search",
+        "Python",
+        "React"
+      ],
+      "coverImage": "/blog/semantic-code-search-faiss-cover.png",
+      "coverAlt": "Article cover for semantic code search showing upload, embeddings, FAISS retrieval, and grounded chat.",
+      "published": true,
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "modular-ecommerce-dotnet-architecture",
+      "title": "Modular commerce with .NET 8: boundaries, flags, and events",
+      "summary": "A practical look at the architecture behind a microservice-ready commerce monorepo: gateway routing, EF Core plus Dapper, Redis state, and RabbitMQ order events.",
+      "body": "A commerce repository can look modular while every feature still shares one deployment and one data path. The harder question is whether the boundaries are real enough to survive change. The Modular eCommerce Platform is an attempt to make those boundaries explicit without turning local development into a distributed-systems exercise.\n\n![Modular commerce architecture](/projects/modular-ecommerce-architecture.svg)\n\n## One gateway, five modules\n\nThe Angular storefront and admin workspace call a YARP gateway. The gateway routes traffic to Auth, Catalog, Cart, Order, and Notification services. Each service owns its endpoint modules and can be reasoned about independently, while the monorepo keeps local orchestration manageable.\n\nThis is a useful middle ground. It is not a claim that every module must be deployed separately on day one. It is a structure that makes separation possible without hiding the operational cost.\n\n## Read and write paths do not have to use the same tool\n\nCatalog writes use EF Core and migrations. Read-heavy catalog and order queries use Dapper. That split is deliberate: entity tracking and migrations are helpful for writes, while explicit SQL is often clearer for shaped read models.\n\nThe trade-off is two data-access styles to understand. The benefit is that each path can be optimized for its actual job instead of forcing one abstraction to cover both.\n\n## Redis is not only a cache\n\nRedis holds cached product data, persistent carts, and feature-flag state. That gives the storefront fast reads and lets runtime controls change without rebuilding the Angular application.\n\nThe feature flags are the interesting part. A flag that hides the cart UI must also make the cart API return a feature-disabled response. One source of truth across the UI and API is more valuable than a flag that only changes a button.\n\n## Orders create an event boundary\n\nCheckout publishes order.created to RabbitMQ. The notification service consumes it and logs a simulated confirmation email. The checkout request does not wait for notification delivery.\n\nThat is a good asynchronous boundary because a notification failure should not invalidate a completed order. It also adds a broker, a consumer, and a new failure mode. The project keeps the consumer simple and says clearly that email delivery is simulated.\n\n## What the repository verifies, and what it does not\n\nThe README documents a .NET restore and build, an Angular production build, and EF Core migrations for the relevant services. Those are meaningful checks. They are not a load test, a security review, or a payment integration.\n\nThe demo OTP and seeded users are local-development conveniences. They must be replaced before any real deployment. The same is true for the placeholder notification flow and the absence of a payment provider.\n\n## Trade-offs worth naming\n\n- A monorepo makes local orchestration easier but can hide accidental cross-module coupling.\n- Redis improves cart and catalog behaviour but adds a second stateful dependency.\n- RabbitMQ creates a clean async boundary but increases operational surface area.\n- Runtime flags are powerful but need an auditable admin model.\n\n## Takeaway\n\nMicroservice-ready is not the same as microservices in production. The useful part of this project is the explicit contract between the gateway, modules, data stores, and events. You can inspect the implementation in the [Modular eCommerce Platform repository](https://github.com/SushantBuche-107/modular-ecommerce-platform).",
+      "publicationDate": "2026-10-20",
+      "tags": [
+        ".NET",
+        "Microservices",
+        "Redis",
+        "RabbitMQ",
+        "Angular"
+      ],
+      "coverImage": "/blog/modular-ecommerce-dotnet-architecture-cover.png",
+      "coverAlt": "Article cover for modular commerce showing the storefront, gateway, module APIs, and order event.",
+      "published": true,
+      "readingTimeMinutes": 7
+    },
+    {
+      "slug": "sql-server-query-tuning-checklist",
+      "title": "A practical SQL Server query-tuning checklist",
+      "summary": "A repeatable routine for turning a slow production query into a measured, reviewable change without guessing.",
+      "body": "Query tuning goes wrong when it starts with a rewrite. A faster-looking query is not evidence. The useful sequence is measurement, inspection, one deliberate change, and verification under the same conditions.\n\n![Query tuning loop](/blog/sql-tuning-flow.svg)\n\n## Start with the measurement\n\nCapture the query, its parameters, the dataset size, and the observed duration. If possible, record logical reads, CPU time, waits, and how often the query runs. A query that takes 900 ms once is a different problem from one that takes 120 ms a thousand times per minute.\n\nProduction context matters. A plan generated against a small development table is not evidence about a large production table. Use representative data or production-like statistics.\n\n## Read the actual execution plan\n\nThe estimated plan is a hypothesis. The actual plan is evidence.\n\nLook for:\n\n- Large estimated-versus-actual row count differences.\n- Scans where a seek should be possible.\n- Key lookups repeated for every row.\n- Sorts and spills caused by memory grants or missing indexes.\n- Implicit conversions that make a predicate non-SARGable.\n- Nested loops over large inputs.\n\nAlso inspect the query text. Functions wrapped around indexed columns, leading wildcards, and mismatched data types can prevent an index from being used efficiently.\n\n## Rewrite before adding indexes\n\nIndexes are not free. They consume storage, slow writes, and need maintenance. First check whether the query can be simplified:\n\n- Select only the columns the caller needs.\n- Remove unnecessary joins and duplicate predicates.\n- Avoid applying functions to indexed columns in the predicate.\n- Replace unsuitable OFFSET pagination with keyset pagination where appropriate.\n- Break a large multi-purpose query into a clear read model if that is the real requirement.\n\nA rewrite that reduces the work is usually safer than an index that hides the work.\n\n## Add indexes with a cost model\n\nIf an index is justified, define the key columns from the predicate and ordering, then include only the columns needed to avoid lookups. Check the write impact. A read-heavy reporting query and a high-write transactional table need different trade-offs.\n\nComposite index order matters. An index on (CustomerId, CreatedAt) supports a different set of queries than (CreatedAt, CustomerId). Test the real query shapes rather than assuming one index covers everything.\n\n## Watch for parameter sniffing\n\nA stored procedure or parameterized query can reuse a plan that was optimal for one parameter value and poor for another. Before adding hints, confirm the problem. Options include plan forcing, query-store analysis, statistics updates, or restructuring the query. Hints are a last resort because they encode an assumption that can age badly.\n\n## Verify and record the change\n\nRun the same measurement again. Compare duration, reads, CPU, and the actual plan. If the result is better, keep the evidence: the query, the plan, the dataset, and the before/after numbers. If the result is unclear, revert rather than accumulating speculative changes.\n\nOn one production workload I worked on, a combination of query simplification and index changes reduced measured execution time by roughly 30%. The number was useful, but the repeatable method mattered more than the percentage. It made the change reviewable and prevented the next incident from starting from zero.\n\n## Takeaway\n\nThe checklist is deliberately boring: measure, inspect, change one thing, verify, record. Boring works because it keeps performance work tied to evidence instead of intuition.",
+      "publicationDate": "2026-10-18",
+      "tags": [
+        "SQL Server",
+        "Performance",
+        "Backend"
+      ],
+      "coverImage": "/blog/sql-server-query-tuning-checklist-cover.png",
+      "coverAlt": "Article cover for a SQL Server query tuning checklist showing measure, inspect, change, and verify.",
+      "published": true,
+      "readingTimeMinutes": 6
+    },
+    {
+      "slug": "clean-architecture-dotnet-fleet-manager",
+      "title": "Clean Architecture without ceremony in .NET 8",
+      "summary": "What a small .NET 8 foundation gains from explicit dependency direction, domain rules, and an audit interceptor, and where the architecture still needs to prove itself.",
+      "body": "Clean Architecture is often presented as a folder layout. The more useful question is whether the constraints change how the code behaves. In a small service, five projects can be unnecessary ceremony. In a domain with lifecycle rules and audit requirements, the boundaries can earn their keep.\n\n![Fleet Manager architecture](/projects/fleet-manager-architecture.svg)\n\n## Dependency direction is the product\n\nFleet Manager separates API, Application, Contracts, Domain, and Infrastructure. The Domain project has no outward dependencies. Application depends on Domain and Contracts. Infrastructure implements persistence and depends inward.\n\nThe practical benefit is not a prettier diagram. It is that domain rules can be reasoned about without a web request, a database, or a specific serializer. If a hostname value object is invalid, that decision lives in the model rather than in a controller.\n\n## Model the rules where they belong\n\nThe node aggregate owns its identity, hostname, IP address, lifecycle state, and last-seen metadata. Hostname and IP address are value objects with validation. State transitions such as MarkHealthy and MarkUnreachable are expressed as domain methods.\n\nThat is more verbose than a public setter on an entity. It is also easier to protect. A future endpoint cannot accidentally put a node into an impossible state without changing the model.\n\n## Audit at the persistence edge\n\nEvery update to an auditable entity needs an audit entry. Asking each command handler to remember that requirement is a reliability problem waiting to happen. The project uses an EF Core save-changes interceptor to record entity name, identifier, action, actor, and timestamp.\n\nThe trade-off is that important behaviour now exists in the persistence layer. That behaviour needs integration tests. It should not become invisible magic. An interceptor is a good fit when the rule is genuinely cross-cutting and the test strategy covers it.\n\n## A foundation is not a finished service\n\nThe repository currently stops at the architectural foundation. The solution builds and hosts a Swagger-enabled API. The node endpoints, DbContext registration in the host, migrations, SSH health probes, authentication, role-based authorization, and tests are still roadmap work.\n\nThat boundary is important. A Clean Architecture diagram can make a repository look more complete than it is. The README calls out the missing wiring so reviewers can judge the foundation for what it is.\n\n## What would make the architecture prove itself\n\nThe next slice should be small and end-to-end:\n\n1. Register the DbContext and audit interceptor.\n2. Generate the initial migration.\n3. Add one node registration command and one list query.\n4. Test the aggregate rules and the audit record together.\n5. Add a health probe only after the persistence path is trustworthy.\n\nThat sequence would validate the boundaries against a real request instead of adding more layers in advance.\n\n## Takeaway\n\nClean Architecture is useful when it enforces a dependency rule the product actually needs. In Fleet Manager, the domain model and audit boundary justify the structure. The remaining work is to connect it to persistence and prove the design with tests. You can review the current state in the [Fleet Manager repository](https://github.com/SushantBuche-107/fleet-manager).",
+      "publicationDate": "2026-10-16",
+      "tags": [
+        ".NET",
+        "Architecture",
+        "DDD",
+        "PostgreSQL"
+      ],
+      "coverImage": "/blog/clean-architecture-dotnet-fleet-manager-cover.png",
+      "coverAlt": "Article cover for Clean Architecture in .NET showing API, application, domain, and infrastructure boundaries.",
+      "published": true,
+      "readingTimeMinutes": 6
+    }
+  ],
+  "contact": {
+    "enabled": true,
+    "showEmail": true,
+    "showPhone": true,
+    "mode": "mailto",
+    "endpoint": "",
+    "bookingUrl": "",
+    "formIntro": "Share a role, a project, or a technical question. The form opens your email client with the message prepared.",
+    "notice": "Email is the most direct way to reach me.",
+    "successMessage": "Your email app should open with the message prepared. Thank you for reaching out.",
+    "privacyNote": "This form prepares a message in your email client. It does not store submissions on this site.",
+    "responseNote": "Email is the most reliable channel for a direct response."
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "to": "/",
+      "show": true
+    },
+    {
+      "label": "About",
+      "to": "/about",
+      "show": true
+    },
+    {
+      "label": "Skills",
+      "to": "/skills",
+      "show": true
+    },
+    {
+      "label": "Projects",
+      "to": "/projects",
+      "show": true
+    },
+    {
+      "label": "Experience",
+      "to": "/experience",
+      "show": true
+    },
+    {
+      "label": "Resume",
+      "to": "/resume",
+      "show": true
+    },
+    {
+      "label": "Blog",
+      "to": "/blog",
+      "show": true
+    },
+    {
+      "label": "Contact",
+      "to": "/contact",
+      "show": true
+    }
+  ],
+  "footer": {
+    "copyrightName": "Sushant Buche",
+    "showBackToTop": true,
+    "privacyUrl": "",
+    "note": "Built with React, TypeScript, and React Three Fiber. All public content is managed from a single typed source."
+  },
+  "about": {
+    "intro": "I'm Sushant Buche, a Software Developer Level 2 based in Chandrapur, Maharashtra. I build and maintain full-stack .NET applications, APIs, integrations, and production workflows, with a focus on C#, ASP.NET Core, SQL Server, and the architecture that keeps systems dependable.",
+    "journey": [
+      "I began my professional journey in October 2023 as a Consultant and progressed through Software Developer Level 1 to Level 2.",
+      "My work has spanned healthcare and insurance technology: patient and caregiver workflows, claims and EDI integrations, IVR and third-party APIs, background processing, and production support.",
+      "I completed my B.E. in Computer Technology at KITS Ramtek in 2023, before moving into full-time application development.",
+      "I care about the operational details: query performance, data validation, safe retries, useful logs, and the small reliability decisions that make a system easier to run.",
+      "I'm now deepening my focus on cloud-native architecture, distributed systems, and AI-enabled application patterns."
+    ],
+    "philosophy": [
+      "Reliable software is designed around real workflows, not just happy paths.",
+      "APIs are contracts. Clarity and predictable behaviour matter more than cleverness.",
+      "Performance is a product feature, especially when a workflow is repeated all day.",
+      "Security and observability belong in the design, not in a later hardening pass.",
+      "The best architecture is the simplest one that can evolve safely."
+    ],
+    "approach": [
+      {
+        "title": "Understand the workflow",
+        "detail": "Start with the people, data, and decisions the software supports before choosing an implementation."
+      },
+      {
+        "title": "Model the contracts",
+        "detail": "Define the data, API boundaries, and failure behaviour so integration points stay understandable."
+      },
+      {
+        "title": "Build in small increments",
+        "detail": "Ship testable slices that can be verified against real usage instead of a large, opaque release."
+      },
+      {
+        "title": "Validate failure modes",
+        "detail": "Treat bad input, retries, timeouts, and partial failure as normal parts of the design."
+      },
+      {
+        "title": "Measure and refine",
+        "detail": "Use evidence from logs, queries, and production behaviour to decide what to improve next."
+      }
+    ],
+    "domains": [
+      {
+        "title": "Healthcare & home care",
+        "detail": "Application workflows and data associated with patient and caregiver operations, built for clarity and dependable day-to-day use."
+      },
+      {
+        "title": "Insurance & claims",
+        "detail": "Business processes and data tied to insurance systems, including claims, EDI file exchange, and rules that need consistent behaviour."
+      },
+      {
+        "title": "Enterprise API integrations",
+        "detail": "Connecting internal systems and external services through stable interfaces, validation, and clear error handling."
+      },
+      {
+        "title": "Production reliability",
+        "detail": "Troubleshooting real system behaviour, improving SQL queries, and supporting the operational side of delivery."
+      }
+    ],
+    "interests": [
+      "AI-enabled applications",
+      "Retrieval-augmented applications",
+      "Agent orchestration",
+      "Cloud-native engineering",
+      "Developer productivity tools",
+      "Application architecture",
+      "Computer vision"
+    ],
+    "learning": [
+      "Distributed systems design and service boundaries",
+      "Event-driven architecture with Kafka and RabbitMQ",
+      "Kubernetes and cloud deployment patterns",
+      "Retrieval quality and grounded LLM applications",
+      "Production AI guardrails and evaluation"
+    ],
+    "principles": [
+      {
+        "title": "Clarity over cleverness",
+        "detail": "Code and architecture should be understandable to the next engineer, including future me."
+      },
+      {
+        "title": "Design for failure",
+        "detail": "Timeouts, retries, invalid data, and partial outages are part of the normal operating model."
+      },
+      {
+        "title": "Make it observable",
+        "detail": "Logs, meaningful errors, and useful metrics are how production problems become fixable."
+      },
+      {
+        "title": "Respect the data",
+        "detail": "Validation, least privilege, and careful handling of personal or business data are non-negotiable."
+      }
+    ]
+  }
+}

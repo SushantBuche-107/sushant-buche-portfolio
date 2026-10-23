@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0B0F17" />
+        <stop offset="1" stop-color="#070B12" />
+      </linearGradient>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M40 0H0V40" fill="none" stroke="#DCE7FF" stroke-opacity="0.04" stroke-width="1" />
+      </pattern>
+      <marker id="diagram-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0 0L10 5L0 10z" fill="#FB7185" fill-opacity="0.7" />
+      </marker>
+    </defs>
+    <rect width="1200" height="700" fill="url(#bg)" />
+    <rect width="1200" height="700" fill="url(#grid)" />
+    <text x="48" y="64" font-family="Consolas, monospace" font-size="13" letter-spacing="3" fill="#FB7185">ARCHITECTURE OVERVIEW</text>
+    <text x="48" y="104" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">Layered commerce application</text>
+    <text x="48" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">An Angular client talks to an ASP.NET Core API backed by EF Core and SQL Server.</text>
+    
+      <g>
+        <rect x="48" y="286" width="216" height="92" rx="16" fill="#0E1523" stroke="#FB7185" stroke-opacity="0.35" />
+        <rect x="48" y="286" width="216" height="4" rx="2" fill="#FB7185" fill-opacity="0.72" />
+        <text x="66" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Angular 15</text>
+        <text x="66" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Material account flows</text>
+      </g>
+      <g>
+        <rect x="334" y="286" width="220" height="92" rx="16" fill="#0E1523" stroke="#FB7185" stroke-opacity="0.35" />
+        <rect x="334" y="286" width="220" height="4" rx="2" fill="#FB7185" fill-opacity="0.72" />
+        <text x="352" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">ASP.NET Core API</text>
+        <text x="352" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Account + product controllers</text>
+      </g>
+      <g>
+        <rect x="626" y="160" width="244" height="92" rx="16" fill="#0E1523" stroke="#FB7185" stroke-opacity="0.35" />
+        <rect x="626" y="160" width="244" height="4" rx="2" fill="#FB7185" fill-opacity="0.72" />
+        <text x="644" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">MediatR handlers</text>
+        <text x="644" y="221" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Product commands + queries</text>
+      </g>
+      <g>
+        <rect x="626" y="392" width="244" height="92" rx="16" fill="#0E1523" stroke="#FB7185" stroke-opacity="0.35" />
+        <rect x="626" y="392" width="244" height="4" rx="2" fill="#FB7185" fill-opacity="0.72" />
+        <text x="644" y="428" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Repositories</text>
+        <text x="644" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Users · products · generic repo</text>
+      </g>
+      <g>
+        <rect x="932" y="392" width="218" height="92" rx="16" fill="#0E1523" stroke="#FB7185" stroke-opacity="0.35" />
+        <rect x="932" y="392" width="218" height="4" rx="2" fill="#FB7185" fill-opacity="0.72" />
+        <text x="950" y="428" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">SQL Server</text>
+        <text x="950" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">EF Core migrations</text>
+      </g>
+      <g>
+        <rect x="932" y="160" width="218" height="92" rx="16" fill="#0E1523" stroke="#FB7185" stroke-opacity="0.35" />
+        <rect x="932" y="160" width="218" height="4" rx="2" fill="#FB7185" fill-opacity="0.72" />
+        <text x="950" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">JWT · OTP</text>
+        <text x="950" y="221" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">MailKit · Twilio settings</text>
+      </g>
+    
+      <path d="M264 332 L328 332" stroke="#FB7185" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M554 318 L620 226" stroke="#FB7185" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M554 346 L620 426" stroke="#FB7185" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M870 426 L926 426" stroke="#FB7185" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M870 206 L926 206" stroke="#FB7185" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+  </svg>

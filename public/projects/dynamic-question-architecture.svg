@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0B0F17" />
+        <stop offset="1" stop-color="#070B12" />
+      </linearGradient>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M40 0H0V40" fill="none" stroke="#DCE7FF" stroke-opacity="0.04" stroke-width="1" />
+      </pattern>
+      <marker id="diagram-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0 0L10 5L0 10z" fill="#34D399" fill-opacity="0.7" />
+      </marker>
+    </defs>
+    <rect width="1200" height="700" fill="url(#bg)" />
+    <rect width="1200" height="700" fill="url(#grid)" />
+    <text x="48" y="64" font-family="Consolas, monospace" font-size="13" letter-spacing="3" fill="#34D399">ARCHITECTURE OVERVIEW</text>
+    <text x="48" y="104" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">Assessment request pipeline</text>
+    <text x="48" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">Controllers delegate to MediatR handlers; repositories isolate EF Core persistence.</text>
+    
+      <g>
+        <rect x="48" y="286" width="210" height="92" rx="16" fill="#0E1523" stroke="#34D399" stroke-opacity="0.35" />
+        <rect x="48" y="286" width="210" height="4" rx="2" fill="#34D399" fill-opacity="0.72" />
+        <text x="66" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Assessment API</text>
+        <text x="66" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Create · update · read</text>
+      </g>
+      <g>
+        <rect x="318" y="286" width="202" height="92" rx="16" fill="#0E1523" stroke="#34D399" stroke-opacity="0.35" />
+        <rect x="318" y="286" width="202" height="4" rx="2" fill="#34D399" fill-opacity="0.72" />
+        <text x="336" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">MediatR</text>
+        <text x="336" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Commands and queries</text>
+      </g>
+      <g>
+        <rect x="592" y="160" width="244" height="92" rx="16" fill="#0E1523" stroke="#34D399" stroke-opacity="0.35" />
+        <rect x="592" y="160" width="244" height="4" rx="2" fill="#34D399" fill-opacity="0.72" />
+        <text x="610" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Assessment handlers</text>
+        <text x="610" y="221" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Name + scorable flag</text>
+      </g>
+      <g>
+        <rect x="592" y="392" width="244" height="92" rx="16" fill="#0E1523" stroke="#34D399" stroke-opacity="0.35" />
+        <rect x="592" y="392" width="244" height="4" rx="2" fill="#34D399" fill-opacity="0.72" />
+        <text x="610" y="428" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Question handlers</text>
+        <text x="610" y="453" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Text · response type · required</text>
+      </g>
+      <g>
+        <rect x="892" y="286" width="240" height="92" rx="16" fill="#0E1523" stroke="#34D399" stroke-opacity="0.35" />
+        <rect x="892" y="286" width="240" height="4" rx="2" fill="#34D399" fill-opacity="0.72" />
+        <text x="910" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Repositories</text>
+        <text x="910" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Assessment + generic async</text>
+      </g>
+      <g>
+        <rect x="892" y="484" width="240" height="92" rx="16" fill="#0E1523" stroke="#34D399" stroke-opacity="0.35" />
+        <rect x="892" y="484" width="240" height="4" rx="2" fill="#34D399" fill-opacity="0.72" />
+        <text x="910" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">SQL Server</text>
+        <text x="910" y="545" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">EF Core initial migration</text>
+      </g>
+    
+      <path d="M258 332 L312 332" stroke="#34D399" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M520 318 L586 226" stroke="#34D399" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M520 346 L586 426" stroke="#34D399" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M836 206 L886 300" stroke="#34D399" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M836 438 L886 354" stroke="#34D399" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M1012 378 L1012 478" stroke="#34D399" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+  </svg>

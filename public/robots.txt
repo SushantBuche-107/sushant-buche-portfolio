@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Set site.domain in src/data/portfolioData.json to publish a sitemap.

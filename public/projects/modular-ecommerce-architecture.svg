@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0B0F17" />
+        <stop offset="1" stop-color="#070B12" />
+      </linearGradient>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M40 0H0V40" fill="none" stroke="#DCE7FF" stroke-opacity="0.04" stroke-width="1" />
+      </pattern>
+      <marker id="diagram-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0 0L10 5L0 10z" fill="#FBBF24" fill-opacity="0.7" />
+      </marker>
+    </defs>
+    <rect width="1200" height="700" fill="url(#bg)" />
+    <rect width="1200" height="700" fill="url(#grid)" />
+    <text x="48" y="64" font-family="Consolas, monospace" font-size="13" letter-spacing="3" fill="#FBBF24">ARCHITECTURE OVERVIEW</text>
+    <text x="48" y="104" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">Modular commerce boundaries</text>
+    <text x="48" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">The gateway fronts independent modules; Redis and RabbitMQ handle shared runtime concerns.</text>
+    
+      <g>
+        <rect x="40" y="286" width="190" height="92" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="40" y="286" width="190" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="58" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Angular UI</text>
+        <text x="58" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Storefront + admin</text>
+      </g>
+      <g>
+        <rect x="274" y="286" width="176" height="92" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="274" y="286" width="176" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="292" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">YARP</text>
+        <text x="292" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">API gateway</text>
+      </g>
+      <g>
+        <rect x="510" y="150" width="220" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="510" y="150" width="220" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="528" y="186" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">AuthService</text>
+        <text x="528" y="211" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">JWT · password · OTP</text>
+      </g>
+      <g>
+        <rect x="510" y="262" width="220" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="510" y="262" width="220" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="528" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">CatalogService</text>
+        <text x="528" y="323" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Dapper reads · EF writes</text>
+      </g>
+      <g>
+        <rect x="510" y="374" width="220" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="510" y="374" width="220" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="528" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">CartService</text>
+        <text x="528" y="435" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Redis-backed cart</text>
+      </g>
+      <g>
+        <rect x="510" y="486" width="220" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="510" y="486" width="220" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="528" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">OrderService</text>
+        <text x="528" y="547" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Checkout · order history</text>
+      </g>
+      <g>
+        <rect x="816" y="150" width="320" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="816" y="150" width="320" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="834" y="186" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">PostgreSQL</text>
+        <text x="834" y="211" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">auth · catalog · ordering schemas</text>
+      </g>
+      <g>
+        <rect x="816" y="262" width="320" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="816" y="262" width="320" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="834" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Redis</text>
+        <text x="834" y="323" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">cache · carts · feature flags</text>
+      </g>
+      <g>
+        <rect x="816" y="374" width="320" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="816" y="374" width="320" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="834" y="410" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">RabbitMQ</text>
+        <text x="834" y="435" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">order.created event</text>
+      </g>
+      <g>
+        <rect x="816" y="486" width="320" height="82" rx="16" fill="#0E1523" stroke="#FBBF24" stroke-opacity="0.35" />
+        <rect x="816" y="486" width="320" height="4" rx="2" fill="#FBBF24" fill-opacity="0.72" />
+        <text x="834" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">NotificationService</text>
+        <text x="834" y="547" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Simulated confirmation email</text>
+      </g>
+    
+      <path d="M230 332 L268 332" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M450 332 L504 191" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M450 332 L504 303" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M450 332 L504 415" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M450 332 L504 527" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M730 527 L810 415" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M976 456 L976 480" stroke="#FBBF24" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+  </svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0B0F17" />
+        <stop offset="1" stop-color="#070B12" />
+      </linearGradient>
+      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M40 0H0V40" fill="none" stroke="#DCE7FF" stroke-opacity="0.04" stroke-width="1" />
+      </pattern>
+      <marker id="diagram-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0 0L10 5L0 10z" fill="#60A5FA" fill-opacity="0.7" />
+      </marker>
+    </defs>
+    <rect width="1200" height="700" fill="url(#bg)" />
+    <rect width="1200" height="700" fill="url(#grid)" />
+    <text x="48" y="64" font-family="Consolas, monospace" font-size="13" letter-spacing="3" fill="#60A5FA">ARCHITECTURE OVERVIEW</text>
+    <text x="48" y="104" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#F8FAFC">Dependency direction in Fleet Manager</text>
+    <text x="48" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">Domain rules stay inward; infrastructure supplies persistence and audit behaviour.</text>
+    
+      <g>
+        <rect x="60" y="286" width="224" height="92" rx="16" fill="#0E1523" stroke="#60A5FA" stroke-opacity="0.35" />
+        <rect x="60" y="286" width="224" height="4" rx="2" fill="#60A5FA" fill-opacity="0.72" />
+        <text x="78" y="322" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">API host</text>
+        <text x="78" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">ASP.NET Core + Swagger</text>
+      </g>
+      <g>
+        <rect x="360" y="160" width="244" height="92" rx="16" fill="#0E1523" stroke="#60A5FA" stroke-opacity="0.35" />
+        <rect x="360" y="160" width="244" height="4" rx="2" fill="#60A5FA" fill-opacity="0.72" />
+        <text x="378" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Application</text>
+        <text x="378" y="221" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Use cases · MediatR-ready</text>
+      </g>
+      <g>
+        <rect x="706" y="160" width="224" height="92" rx="16" fill="#0E1523" stroke="#60A5FA" stroke-opacity="0.35" />
+        <rect x="706" y="160" width="224" height="4" rx="2" fill="#60A5FA" fill-opacity="0.72" />
+        <text x="724" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Domain</text>
+        <text x="724" y="221" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">Node · value objects · rules</text>
+      </g>
+      <g>
+        <rect x="706" y="386" width="224" height="92" rx="16" fill="#0E1523" stroke="#60A5FA" stroke-opacity="0.35" />
+        <rect x="706" y="386" width="224" height="4" rx="2" fill="#60A5FA" fill-opacity="0.72" />
+        <text x="724" y="422" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Contracts</text>
+        <text x="724" y="447" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">DTOs shared outward</text>
+      </g>
+      <g>
+        <rect x="360" y="470" width="244" height="92" rx="16" fill="#0E1523" stroke="#60A5FA" stroke-opacity="0.35" />
+        <rect x="360" y="470" width="244" height="4" rx="2" fill="#60A5FA" fill-opacity="0.72" />
+        <text x="378" y="506" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">Infrastructure</text>
+        <text x="378" y="531" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">EF Core · audit interceptor</text>
+      </g>
+      <g>
+        <rect x="880" y="540" width="240" height="92" rx="16" fill="#0E1523" stroke="#60A5FA" stroke-opacity="0.35" />
+        <rect x="880" y="540" width="240" height="4" rx="2" fill="#60A5FA" fill-opacity="0.72" />
+        <text x="898" y="576" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E5EDF8">PostgreSQL</text>
+        <text x="898" y="601" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#94A3B8">nodes · audit_logs</text>
+      </g>
+    
+      <path d="M284 318 L354 230" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M604 206 L700 206" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M604 470 L700 430" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M482 470 L482 252" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+      <path d="M604 516 L874 574" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="2" fill="none" marker-end="url(#diagram-arrow)"  />
+  </svg>
